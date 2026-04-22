@@ -36,8 +36,8 @@ body {
 }
 
 .cabecera {
-    background-color: #ffffff;
-    color: #333333;
+    background-color: #f8d7da; /* Rojo pastel muy claro */
+    color: #491217; /* Rojo muy oscuro para el texto */
     padding: 15px 10px;
     border-bottom: 3px solid #d32f2f;
 }
