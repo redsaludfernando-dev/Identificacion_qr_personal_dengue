@@ -36,9 +36,10 @@ body {
 }
 
 .cabecera {
-    background-color: #d32f2f; /* Rojo característico de Salud/Alerta */
-    color: white;
+    background-color: #ffffff;
+    color: #333333;
     padding: 15px 10px;
+    border-bottom: 3px solid #d32f2f;
 }
 
 .cabecera h2 {
