@@ -15,17 +15,24 @@
                 <p>Identificación Oficial</p>
             </div>
             <div class="cuerpo">
+                <!-- Usaremos una API gratuita (ui-avatars) para generar una foto con sus iniciales -->
                 <img id="foto" src="" alt="Foto de perfil">
                 <h3 id="nombreCompleto">Cargando...</h3>
+                
                 <p class="etiqueta">Cargo</p>
                 <p id="cargo" class="valor">-</p>
-                <p class="etiqueta">Brigada</p>
-                <p id="brigada" class="valor">-</p>
-                <p class="etiqueta">ID de Personal</p>
-                <p id="idPersonal" class="valor">-</p>
+                
+                <p class="etiqueta">Profesión</p>
+                <p id="profesion" class="valor">-</p>
+                
+                <p class="etiqueta">Brigada / Grupo</p>
+                <p id="grupo" class="valor">-</p>
+                
+                <p class="etiqueta">DNI</p>
+                <p id="dni" class="valor">-</p>
             </div>
             <div class="pie">
-                <p>Válido para el año 2026</p>
+                <p id="vigencia">Válido para el año 2026</p>
             </div>
         </div>
 
@@ -37,7 +44,7 @@
     </div>
 
     <script>
-        // Obtener el ID que viene de la URL del QR escaneado (ej: ?id=1001)
+        // Obtener el DNI que viene de la URL del QR escaneado (ej: ?id=76124515)
         const urlParams = new URLSearchParams(window.location.search);
         const idBuscado = urlParams.get('id');
 
@@ -53,8 +60,8 @@
                 const response = await fetch('datos.json');
                 const datos = await response.json();
                 
-                // Busca al empleado por su ID
-                const persona = datos.find(p => p.id === id);
+                // Busca al empleado por su DNI
+                const persona = datos.find(p => p.DNI === id);
                 
                 if (persona) {
                     mostrarFotocheck(persona);
@@ -68,11 +75,20 @@
         }
 
         function mostrarFotocheck(persona) {
-            document.getElementById('foto').src = persona.foto;
-            document.getElementById('nombreCompleto').textContent = `${persona.nombres} ${persona.apellidos}`;
-            document.getElementById('cargo').textContent = persona.cargo;
-            document.getElementById('brigada').textContent = persona.brigada;
-            document.getElementById('idPersonal').textContent = persona.id;
+            const nombres = persona['NOMBRE Y APELLIDOS'];
+            // Generar un avatar con las iniciales de la persona
+            const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(nombres)}&background=random&size=150&color=fff`;
+            
+            document.getElementById('foto').src = avatarUrl;
+            document.getElementById('nombreCompleto').textContent = nombres;
+            document.getElementById('cargo').textContent = persona.CARGO;
+            document.getElementById('profesion').textContent = persona['PROFESIÓN'] || '-';
+            document.getElementById('grupo').textContent = persona.GRUPO;
+            document.getElementById('dni').textContent = persona.DNI;
+            
+            if (persona.VIGENCIA) {
+                document.getElementById('vigencia').textContent = persona.VIGENCIA;
+            }
 
             document.getElementById('fotocheck').classList.remove('oculto');
         }
