@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotocheck - Personal Dengue</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <!-- Tarjeta de Fotocheck -->
+        <div id="fotocheck" class="fotocheck oculto">
+            <div class="cabecera">
+                <h2>Campaña Contra el Dengue</h2>
+                <p>Identificación Oficial</p>
+            </div>
+            <div class="cuerpo">
+                <img id="foto" src="" alt="Foto de perfil">
+                <h3 id="nombreCompleto">Cargando...</h3>
+                <p class="etiqueta">Cargo</p>
+                <p id="cargo" class="valor">-</p>
+                <p class="etiqueta">Brigada</p>
+                <p id="brigada" class="valor">-</p>
+                <p class="etiqueta">ID de Personal</p>
+                <p id="idPersonal" class="valor">-</p>
+            </div>
+            <div class="pie">
+                <p>Válido para el año 2026</p>
+            </div>
+        </div>
+
+        <!-- Mensaje de Error -->
+        <div id="error" class="error oculto">
+            <h2>Persona no encontrada</h2>
+            <p>El código QR escaneado no coincide con ningún registro activo o la URL es inválida.</p>
+        </div>
+    </div>
+
+    <script>
+        // Obtener el ID que viene de la URL del QR escaneado (ej: ?id=1001)
+        const urlParams = new URLSearchParams(window.location.search);
+        const idBuscado = urlParams.get('id');
+
+        if (!idBuscado) {
+            mostrarError();
+        } else {
+            cargarDatos(idBuscado);
+        }
+
+        async function cargarDatos(id) {
+            try {
+                // Descarga los datos de la "base de datos" estática (el JSON)
+                const response = await fetch('datos.json');
+                const datos = await response.json();
+                
+                // Busca al empleado por su ID
+                const persona = datos.find(p => p.id === id);
+                
+                if (persona) {
+                    mostrarFotocheck(persona);
+                } else {
+                    mostrarError();
+                }
+            } catch (error) {
+                console.error('Error cargando los datos:', error);
+                mostrarError();
+            }
+        }
+
+        function mostrarFotocheck(persona) {
+            document.getElementById('foto').src = persona.foto;
+            document.getElementById('nombreCompleto').textContent = `${persona.nombres} ${persona.apellidos}`;
+            document.getElementById('cargo').textContent = persona.cargo;
+            document.getElementById('brigada').textContent = persona.brigada;
+            document.getElementById('idPersonal').textContent = persona.id;
+
+            document.getElementById('fotocheck').classList.remove('oculto');
+        }
+
+        function mostrarError() {
+            document.getElementById('error').classList.remove('oculto');
+        }
+    </script>
+</body>
+</html>
