@@ -29,9 +29,26 @@ const sanitizeKeys = (row) => {
 };
 
 fs.createReadStream(ARCHIVO_CSV)
-  .pipe(csv())
+  .pipe(csv({ separator: ';' }))
   .on('data', (data) => resultados.push(sanitizeKeys(data)))
   .on('end', async () => {
+    // Buscar fotos para cada persona
+    const DIRECTORIO_FOTOS = path.join('img', 'fotos_perfil_personal');
+    let archivosFotos = [];
+    if (fs.existsSync(DIRECTORIO_FOTOS)) {
+        archivosFotos = fs.readdirSync(DIRECTORIO_FOTOS);
+    }
+
+    resultados.forEach(persona => {
+        if (persona.DNI) {
+            const fotoEncontrada = archivosFotos.find(f => f.includes(persona.DNI));
+            if (fotoEncontrada) {
+                // Guarda la ruta relativa para la web
+                persona.FOTO = `img/fotos_perfil_personal/${encodeURIComponent(fotoEncontrada)}`;
+            }
+        }
+    });
+
     // 1. Guardar como JSON para que la web pueda leerlo rápido
     fs.writeFileSync(ARCHIVO_JSON, JSON.stringify(resultados, null, 2));
     console.log(`✅ Archivo datos.json actualizado con éxito. (${resultados.length} registros encontrados)`);

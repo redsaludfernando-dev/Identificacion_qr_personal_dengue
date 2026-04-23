@@ -77,10 +77,11 @@
 
         function mostrarFotocheck(persona) {
             const nombres = persona['NOMBRE Y APELLIDOS'];
-            // Generar un avatar con las iniciales de la persona
-            const avatarUrl = `https://ui-avatars.com/api/?name=${encodeURIComponent(nombres)}&background=random&size=150&color=fff`;
             
-            document.getElementById('foto').src = avatarUrl;
+            // Si tiene foto la usamos, si no, un avatar con iniciales
+            const fotoUrl = persona.FOTO ? persona.FOTO : `https://ui-avatars.com/api/?name=${encodeURIComponent(nombres)}&background=random&size=150&color=fff`;
+            
+            document.getElementById('foto').src = fotoUrl;
             document.getElementById('nombreCompleto').textContent = nombres;
             document.getElementById('cargo').textContent = persona.CARGO;
             document.getElementById('profesion').textContent = persona['PROFESIÓN'] || '-';
