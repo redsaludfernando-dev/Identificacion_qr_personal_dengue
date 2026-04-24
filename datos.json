@@ -1,5 +1,6 @@
 [
   {
+    "ID": "1",
     "GRUPO": "GRUPO 1",
     "NOMBRE Y APELLIDOS": "TITO FRANCINE HUAMAN CULQUI",
     "DNI": "76124515",
@@ -8,6 +9,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "2",
     "GRUPO": "GRUPO 1",
     "NOMBRE Y APELLIDOS": "MIRELI CARRASCO QUISPE",
     "DNI": "75622985",
@@ -16,6 +18,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "3",
     "GRUPO": "GRUPO 1",
     "NOMBRE Y APELLIDOS": "LUZ JHOANA TUESTA ALTAMIRANO",
     "DNI": "71121828",
@@ -24,6 +27,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "4",
     "GRUPO": "GRUPO 1",
     "NOMBRE Y APELLIDOS": "JAIR DELGADO NUÑEZ",
     "DNI": "76646049",
@@ -33,6 +37,7 @@
     "FOTO": "img/fotos_perfil_personal/Jair%20Delgado%20Nu%C3%B1ez%20-76646049.jpg"
   },
   {
+    "ID": "5",
     "GRUPO": "GRUPO 1",
     "NOMBRE Y APELLIDOS": "SARITA JHANINA CARRASCO BARON",
     "DNI": "75311444",
@@ -41,6 +46,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "6",
     "GRUPO": "GRUPO 1",
     "NOMBRE Y APELLIDOS": "MAGALY KELITA MONTEZA CALDERON",
     "DNI": "74431693",
@@ -49,6 +55,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "7",
     "GRUPO": "GRUPO 1",
     "NOMBRE Y APELLIDOS": "KIMBERLY ANAIS RÍOS ISLA",
     "DNI": "73087942",
@@ -57,6 +64,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "8",
     "GRUPO": "GRUPO 2",
     "NOMBRE Y APELLIDOS": "CESAR AUGUSTO SILVA CARDENAS",
     "DNI": "3380626",
@@ -65,6 +73,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "9",
     "GRUPO": "GRUPO 2",
     "NOMBRE Y APELLIDOS": "FLOR STEFANNY ESCUDERO ESCUDERO",
     "DNI": "46433923",
@@ -73,6 +82,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "10",
     "GRUPO": "GRUPO 2",
     "NOMBRE Y APELLIDOS": "LALI ANDREA SANCHEZ HUACAL",
     "DNI": "70549008",
@@ -81,6 +91,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "11",
     "GRUPO": "GRUPO 2",
     "NOMBRE Y APELLIDOS": "ROONEY RICARDO FLORES MILIAN",
     "DNI": "74399068",
@@ -89,6 +100,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "12",
     "GRUPO": "GRUPO 2",
     "NOMBRE Y APELLIDOS": "ARTURO DAVID PEREZ REATEGUI",
     "DNI": "72845712",
@@ -97,6 +109,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "13",
     "GRUPO": "GRUPO 2",
     "NOMBRE Y APELLIDOS": "MARC ANTHONY RUIZ PEREZ",
     "DNI": "48831211",
@@ -105,6 +118,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "14",
     "GRUPO": "GRUPO 2",
     "NOMBRE Y APELLIDOS": "NEISER ELVIS DAVILA MEDINA",
     "DNI": "74939156",
@@ -113,6 +127,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "15",
     "GRUPO": "GRUPO 3",
     "NOMBRE Y APELLIDOS": "CARMEN DEL PILAR CURICO HUAMAN",
     "DNI": "44044700",
@@ -121,6 +136,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "16",
     "GRUPO": "GRUPO 3",
     "NOMBRE Y APELLIDOS": "YESSICA SELENI ERAZO QUISPE",
     "DNI": "70056281",
@@ -129,6 +145,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "17",
     "GRUPO": "GRUPO 3",
     "NOMBRE Y APELLIDOS": "CESIAH KEREN CHOTA DE LA CRUZ",
     "DNI": "71111212",
@@ -137,6 +154,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "18",
     "GRUPO": "GRUPO 3",
     "NOMBRE Y APELLIDOS": "GUSTAVO RENGIFO PEREZ",
     "DNI": "48831211",
@@ -145,6 +163,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "19",
     "GRUPO": "GRUPO 3",
     "NOMBRE Y APELLIDOS": "GISELLA BAUTISTA ROJAS",
     "DNI": "48537908",
@@ -153,6 +172,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "20",
     "GRUPO": "GRUPO 3",
     "NOMBRE Y APELLIDOS": "JUNELLY PILCO MENDOZA",
     "DNI": "70548897",
@@ -161,6 +181,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "21",
     "GRUPO": "GRUPO 3",
     "NOMBRE Y APELLIDOS": "EVELYN CHÁVEZ ROJAS",
     "DNI": "70272455",
@@ -169,6 +190,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "22",
     "GRUPO": "GRUPO 3",
     "NOMBRE Y APELLIDOS": "ROXANA ROJAS CULQUI",
     "DNI": "71119369",
@@ -178,6 +200,7 @@
     "FOTO": "img/fotos_perfil_personal/ROXANA%20ROJAS%20CULQUI-71119369.png"
   },
   {
+    "ID": "23",
     "GRUPO": "GRUPO 4",
     "NOMBRE Y APELLIDOS": "CLEMENCIA DELGADO VASQUEZ",
     "DNI": "43088329",
@@ -187,6 +210,7 @@
     "FOTO": "img/fotos_perfil_personal/CLEMENCIA-43088329.png"
   },
   {
+    "ID": "24",
     "GRUPO": "GRUPO 4",
     "NOMBRE Y APELLIDOS": "TITO CHUNG VASQUEZ",
     "DNI": "70183395",
@@ -195,6 +219,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "25",
     "GRUPO": "GRUPO 4",
     "NOMBRE Y APELLIDOS": "DIANA GRETHEL RODRÍGUEZ MURAYARI",
     "DNI": "73140643",
@@ -203,6 +228,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "26",
     "GRUPO": "GRUPO 4",
     "NOMBRE Y APELLIDOS": "JUDITH MONTENEGRO RAMOS",
     "DNI": "73136462",
@@ -211,6 +237,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "27",
     "GRUPO": "GRUPO 4",
     "NOMBRE Y APELLIDOS": "NOLBER SUÁREZ AGUILAR",
     "DNI": "43277814",
@@ -219,6 +246,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "28",
     "GRUPO": "GRUPO 4",
     "NOMBRE Y APELLIDOS": "JANINA GUERRERO AMPUERO",
     "DNI": "72712342",
@@ -227,6 +255,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "29",
     "GRUPO": "GRUPO 4",
     "NOMBRE Y APELLIDOS": "GREYSI VALQUI CADENILLAS",
     "DNI": "47913985",
@@ -235,6 +264,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "30",
     "GRUPO": "GRUPO 5",
     "NOMBRE Y APELLIDOS": "DEYVID EDUARDO URQUIA GUEVARA",
     "DNI": "45085450",
@@ -243,6 +273,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "31",
     "GRUPO": "GRUPO 5",
     "NOMBRE Y APELLIDOS": "KLEIBER ALVARADO SANTILLAN",
     "DNI": "76306673",
@@ -251,6 +282,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "32",
     "GRUPO": "GRUPO 5",
     "NOMBRE Y APELLIDOS": "ANA CRISTINA PEÑA ALFARO",
     "DNI": "60288963",
@@ -259,6 +291,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "33",
     "GRUPO": "GRUPO 5",
     "NOMBRE Y APELLIDOS": "ALEXANDER MEJIA MELENDRES",
     "DNI": "`00832388",
@@ -267,6 +300,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "34",
     "GRUPO": "GRUPO 5",
     "NOMBRE Y APELLIDOS": "JHAIR DEL CASTILLO DOZA",
     "DNI": "71011987",
@@ -275,6 +309,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "35",
     "GRUPO": "GRUPO 5",
     "NOMBRE Y APELLIDOS": "XINA MANUELITA BUSTAMANTE CONTRERAS",
     "DNI": "71247854",
@@ -283,6 +318,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "36",
     "GRUPO": "GRUPO 5",
     "NOMBRE Y APELLIDOS": "JULTON PEREZ ACOSTA",
     "DNI": "73855339",
@@ -291,6 +327,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "37",
     "GRUPO": "GRUPO 6",
     "NOMBRE Y APELLIDOS": "ALEX BUSTAMANTE TERRONES",
     "DNI": "71247856",
@@ -299,6 +336,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "38",
     "GRUPO": "GRUPO 6",
     "NOMBRE Y APELLIDOS": "ANALI GUEVARA ROJAS",
     "DNI": "73473260",
@@ -307,6 +345,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "39",
     "GRUPO": "GRUPO 6",
     "NOMBRE Y APELLIDOS": "YANETH MAGALY ROMERO PEREZ",
     "DNI": "46337189",
@@ -315,6 +354,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "40",
     "GRUPO": "GRUPO 6",
     "NOMBRE Y APELLIDOS": "GINA JEYDI TEJEDO CASTILLO",
     "DNI": "71806754",
@@ -323,6 +363,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "41",
     "GRUPO": "GRUPO 6",
     "NOMBRE Y APELLIDOS": "LIZETH SANCHEZ CONTRERAS",
     "DNI": "71768251",
@@ -331,6 +372,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "42",
     "GRUPO": "GRUPO 6",
     "NOMBRE Y APELLIDOS": "ADOLFO FRANKYN VARGAS RAMIREZ",
     "DNI": "73070135",
@@ -339,6 +381,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "43",
     "GRUPO": "GRUPO 6",
     "NOMBRE Y APELLIDOS": "ALEXANDER DIAZ COSAVALENTE",
     "DNI": "72945142",
@@ -347,6 +390,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "44",
     "GRUPO": "6",
     "NOMBRE Y APELLIDOS": "MARIA FERNANDA LOPEZ GARCIA",
     "DNI": "74839215",
@@ -355,6 +399,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "45",
     "GRUPO": "12",
     "NOMBRE Y APELLIDOS": "CARLOS ANDRES QUISPE MAMANI",
     "DNI": "83920174",
@@ -363,6 +408,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "46",
     "GRUPO": "18",
     "NOMBRE Y APELLIDOS": "LUCIA ELENA RAMOS PEREZ",
     "DNI": "71583920",
@@ -371,6 +417,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "47",
     "GRUPO": "24",
     "NOMBRE Y APELLIDOS": "JOSE LUIS TORRES HUAMAN",
     "DNI": "90217485",
@@ -379,6 +426,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "48",
     "GRUPO": "30",
     "NOMBRE Y APELLIDOS": "ANA PAULA VARGAS ROJAS",
     "DNI": "66748392",
@@ -387,6 +435,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "49",
     "GRUPO": "36",
     "NOMBRE Y APELLIDOS": "DIEGO FERNANDO CASTRO SILVA",
     "DNI": "78192034",
@@ -395,6 +444,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "50",
     "GRUPO": "42",
     "NOMBRE Y APELLIDOS": "ROSA MILAGROS SALAZAR CRUZ",
     "DNI": "82917465",
@@ -403,6 +453,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "51",
     "GRUPO": "48",
     "NOMBRE Y APELLIDOS": "LUIS ENRIQUE FLORES QUISPE",
     "DNI": "73592018",
@@ -411,6 +462,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "52",
     "GRUPO": "54",
     "NOMBRE Y APELLIDOS": "CARMEN JULIETA MENDOZA DIAZ",
     "DNI": "91827364",
@@ -419,6 +471,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "53",
     "GRUPO": "60",
     "NOMBRE Y APELLIDOS": "PEDRO ANTONIO REYES CHAVEZ",
     "DNI": "67283910",
@@ -427,6 +480,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "54",
     "GRUPO": "66",
     "NOMBRE Y APELLIDOS": "ELENA SOFIA NAVARRO PEREZ",
     "DNI": "75483921",
@@ -435,6 +489,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "55",
     "GRUPO": "72",
     "NOMBRE Y APELLIDOS": "MIGUEL ANGEL ORTIZ RAMIREZ",
     "DNI": "83910274",
@@ -443,6 +498,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "56",
     "GRUPO": "78",
     "NOMBRE Y APELLIDOS": "LAURA BEATRIZ CARRILLO TORRES",
     "DNI": "71029384",
@@ -451,6 +507,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "57",
     "GRUPO": "84",
     "NOMBRE Y APELLIDOS": "JUAN PABLO VERA SOTO",
     "DNI": "68291037",
@@ -459,6 +516,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "58",
     "GRUPO": "90",
     "NOMBRE Y APELLIDOS": "GLORIA ESTHER PACHECO RUIZ",
     "DNI": "92038475",
@@ -467,6 +525,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "59",
     "GRUPO": "96",
     "NOMBRE Y APELLIDOS": "RICARDO ALONSO AGUILAR LOPEZ",
     "DNI": "78102934",
@@ -475,6 +534,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "60",
     "GRUPO": "102",
     "NOMBRE Y APELLIDOS": "SILVIA MARIBEL SANCHEZ VERA",
     "DNI": "83920165",
@@ -483,6 +543,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "61",
     "GRUPO": "108",
     "NOMBRE Y APELLIDOS": "HUGO CESAR ESPINOZA MORALES",
     "DNI": "76192830",
@@ -491,6 +552,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "62",
     "GRUPO": "114",
     "NOMBRE Y APELLIDOS": "VERONICA DEL PILAR CAMPOS DIAZ",
     "DNI": "64920183",
@@ -499,6 +561,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "63",
     "GRUPO": "120",
     "NOMBRE Y APELLIDOS": "ALBERTO DANIEL RUIZ FLORES",
     "DNI": "87201934",
@@ -507,6 +570,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "64",
     "GRUPO": "126",
     "NOMBRE Y APELLIDOS": "PATRICIA LOURDES GUERRERO SALAS",
     "DNI": "71920384",
@@ -515,6 +579,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "65",
     "GRUPO": "132",
     "NOMBRE Y APELLIDOS": "OSCAR IVAN PEÑA CASTILLO",
     "DNI": "69012384",
@@ -523,6 +588,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "66",
     "GRUPO": "138",
     "NOMBRE Y APELLIDOS": "DANIELA SOLEDAD MORA QUISPE",
     "DNI": "83192047",
@@ -531,6 +597,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "67",
     "GRUPO": "144",
     "NOMBRE Y APELLIDOS": "FERNANDO JAVIER IBARRA REYES",
     "DNI": "70293841",
@@ -539,6 +606,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "68",
     "GRUPO": "150",
     "NOMBRE Y APELLIDOS": "NATALIA ROCIO VELASQUEZ RUIZ",
     "DNI": "81273940",
@@ -547,6 +615,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "69",
     "GRUPO": "156",
     "NOMBRE Y APELLIDOS": "SERGIO ALEJANDRO PALOMINO CRUZ",
     "DNI": "72839401",
@@ -555,6 +624,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "70",
     "GRUPO": "162",
     "NOMBRE Y APELLIDOS": "MONICA ELIZABETH VALDEZ TORRES",
     "DNI": "91028374",
@@ -563,6 +633,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "71",
     "GRUPO": "168",
     "NOMBRE Y APELLIDOS": "ARMANDO LUIS MORALES DIAZ",
     "DNI": "67839201",
@@ -571,6 +642,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "72",
     "GRUPO": "174",
     "NOMBRE Y APELLIDOS": "CLAUDIA PATRICIA RIVERA LOPEZ",
     "DNI": "83920147",
@@ -579,6 +651,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "73",
     "GRUPO": "180",
     "NOMBRE Y APELLIDOS": "GUSTAVO ADOLFO MEZA SALAZAR",
     "DNI": "72019384",
@@ -587,6 +660,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "74",
     "GRUPO": "186",
     "NOMBRE Y APELLIDOS": "KAREN YULIANA NUÑEZ PEREZ",
     "DNI": "69382014",
@@ -595,6 +669,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "75",
     "GRUPO": "192",
     "NOMBRE Y APELLIDOS": "EDGAR RENE ARCE HUAMAN",
     "DNI": "82910374",
@@ -603,6 +678,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "76",
     "GRUPO": "198",
     "NOMBRE Y APELLIDOS": "LILIANA MARIA CUEVA RAMOS",
     "DNI": "71029385",
@@ -611,6 +687,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "77",
     "GRUPO": "204",
     "NOMBRE Y APELLIDOS": "VICTOR MANUEL LEON SOTO",
     "DNI": "90384712",
@@ -619,6 +696,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "78",
     "GRUPO": "210",
     "NOMBRE Y APELLIDOS": "YESENIA MILAGROS ROJAS FLORES",
     "DNI": "78120394",
@@ -627,6 +705,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "79",
     "GRUPO": "216",
     "NOMBRE Y APELLIDOS": "MARCO ANTONIO SILVA CRUZ",
     "DNI": "83920184",
@@ -635,6 +714,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "80",
     "GRUPO": "222",
     "NOMBRE Y APELLIDOS": "PATRICIA ROSA QUINTEROS LOPEZ",
     "DNI": "67201938",
@@ -643,6 +723,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "81",
     "GRUPO": "228",
     "NOMBRE Y APELLIDOS": "RAUL EDUARDO CHAVEZ DIAZ",
     "DNI": "78192035",
@@ -651,6 +732,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "82",
     "GRUPO": "234",
     "NOMBRE Y APELLIDOS": "SANDRA ELENA ORIHUELA TORRES",
     "DNI": "92018374",
@@ -659,6 +741,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "83",
     "GRUPO": "240",
     "NOMBRE Y APELLIDOS": "LUIS MIGUEL ACOSTA PEREZ",
     "DNI": "67192834",
@@ -667,6 +750,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "84",
     "GRUPO": "246",
     "NOMBRE Y APELLIDOS": "VANESSA KARINA GUTIERREZ SALAS",
     "DNI": "83910275",
@@ -675,6 +759,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "85",
     "GRUPO": "252",
     "NOMBRE Y APELLIDOS": "CESAR AUGUSTO NAVARRO FLORES",
     "DNI": "78201934",
@@ -683,6 +768,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "86",
     "GRUPO": "258",
     "NOMBRE Y APELLIDOS": "MARIA JOSE CAMPOS RIVERA",
     "DNI": "91820374",
@@ -691,6 +777,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "87",
     "GRUPO": "264",
     "NOMBRE Y APELLIDOS": "RODRIGO ESTEBAN FLORES DIAZ",
     "DNI": "71029386",
@@ -699,6 +786,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "88",
     "GRUPO": "270",
     "NOMBRE Y APELLIDOS": "JULIETA ANDREA PEÑA SALAZAR",
     "DNI": "67201939",
@@ -707,6 +795,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "89",
     "GRUPO": "276",
     "NOMBRE Y APELLIDOS": "ALDO FERNANDO VARGAS CRUZ",
     "DNI": "83920185",
@@ -715,6 +804,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "90",
     "GRUPO": "282",
     "NOMBRE Y APELLIDOS": "ROCIO DEL PILAR LOZANO PEREZ",
     "DNI": "78192036",
@@ -723,6 +813,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "91",
     "GRUPO": "288",
     "NOMBRE Y APELLIDOS": "JORGE LUIS MENDOZA QUISPE",
     "DNI": "92018375",
@@ -731,6 +822,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "92",
     "GRUPO": "294",
     "NOMBRE Y APELLIDOS": "CARLA DANIELA RUIZ TORRES",
     "DNI": "67192835",
@@ -739,6 +831,7 @@
     "VIGENCIA": "Hasta el 31/06/2026"
   },
   {
+    "ID": "93",
     "GRUPO": "300",
     "NOMBRE Y APELLIDOS": "ENRIQUE DAVID PAREDES FLORES",
     "DNI": "83910276",

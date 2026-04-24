@@ -53,26 +53,31 @@ fs.createReadStream(ARCHIVO_CSV)
     fs.writeFileSync(ARCHIVO_JSON, JSON.stringify(resultados, null, 2));
     console.log(`✅ Archivo datos.json actualizado con éxito. (${resultados.length} registros encontrados)`);
 
-    // 2. Generar código QR en imagen para cada persona usando su DNI
+    // 2. Generar código QR en imagen para cada persona usando su ID
     for (const persona of resultados) {
-        if (!persona.DNI) {
-            console.warn(`⚠️ Fila saltada: No se encontró DNI para`, persona['NOMBRE Y APELLIDOS']);
+        if (!persona.ID) {
+            console.warn(`⚠️ Fila saltada: No se encontró ID para`, persona['NOMBRE Y APELLIDOS']);
             continue;
         }
         
         // La URL a la que redirige el QR al escanearse con la cámara
-        const urlPerfil = `${URL_BASE}/perfil.html?id=${persona.DNI}`;
-        const rutaImagenQR = path.join(DIRECTORIO_QR, `${persona.DNI}.png`);
+        const urlPerfil = `${URL_BASE}/perfil.html?id=${persona.ID}`;
+        const rutaImagenQR = path.join(DIRECTORIO_QR, `${persona.ID}.png`);
         
+        if (fs.existsSync(rutaImagenQR)) {
+            console.log(`⚡ QR ya existe para ${persona['NOMBRE Y APELLIDOS']} (ID: ${persona.ID}). Se actualizan sus datos sin regenerar el QR.`);
+            continue;
+        }
+
         try {
             await QRCode.toFile(rutaImagenQR, urlPerfil, {
                 width: 300,
                 margin: 2,
                 color: { dark: '#000000', light: '#ffffff' }
             });
-            console.log(`✅ QR generado para ${persona['NOMBRE Y APELLIDOS']} (DNI: ${persona.DNI})`);
+            console.log(`✅ QR generado para ${persona['NOMBRE Y APELLIDOS']} (ID: ${persona.ID})`);
         } catch (error) {
-            console.error(`❌ Error generando QR para DNI ${persona.DNI}:`, error);
+            console.error(`❌ Error generando QR para ID ${persona.ID}:`, error);
         }
     }
     console.log('🎉 Proceso de generación completado.');
