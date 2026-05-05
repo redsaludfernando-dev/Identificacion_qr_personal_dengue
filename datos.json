@@ -6,7 +6,8 @@
     "DNI": "76124515",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "JEFE DE BRIGADA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/TITO%20FRANCINE%20HUAMAN%20CULQUI-76124515.png"
   },
   {
     "ID": "2",
@@ -15,7 +16,8 @@
     "DNI": "75622985",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/MIRELI%20CARRASCO%20QUISPE-75622985.jpg"
   },
   {
     "ID": "3",
@@ -24,7 +26,8 @@
     "DNI": "71121828",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/LUZ%20JHOANA%20TUESTA-71121828.png"
   },
   {
     "ID": "4",
@@ -34,7 +37,7 @@
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
     "VIGENCIA": "Hasta el 31/06/2026",
-    "FOTO": "img/fotos_perfil_personal/Jair%20Delgado%20Nu%C3%B1ez%20-76646049.jpg"
+    "FOTO": "img/fotos_perfil_personal/JAIR%20DELGADO-76646049.png"
   },
   {
     "ID": "5",
@@ -52,7 +55,8 @@
     "DNI": "74431693",
     "PROFESIÓN": "TÉCNICO EN ENFERMERIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/MAGALY%20KELITA%20MONTEZA%20CALDERON-74431693.png"
   },
   {
     "ID": "7",
@@ -61,7 +65,8 @@
     "DNI": "73087942",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/KIMBERLY%20RIOS-73087942.png"
   },
   {
     "ID": "8",
@@ -79,7 +84,8 @@
     "DNI": "46433923",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/FLOR%20STEFANNY%20ESCUDERO-46433923.png"
   },
   {
     "ID": "10",
@@ -88,7 +94,8 @@
     "DNI": "70549008",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/LALI%20ANDREA-70549008.png"
   },
   {
     "ID": "11",
@@ -97,7 +104,8 @@
     "DNI": "74399068",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/ROONEY%20RICARDO%20FLORES-74399068.png"
   },
   {
     "ID": "12",
@@ -106,7 +114,8 @@
     "DNI": "72845712",
     "PROFESIÓN": "TÉCNICO EN CONTABILIDAD",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/ARTURO%20DAVID-72845712.png"
   },
   {
     "ID": "13",
@@ -124,7 +133,8 @@
     "DNI": "74939156",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/NEISER%20DAVILA%20MEDINA-74939156.png"
   },
   {
     "ID": "15",
@@ -147,8 +157,8 @@
   {
     "ID": "17",
     "GRUPO": "GRUPO 3",
-    "NOMBRE Y APELLIDOS": "CESIAH KEREN CHOTA DE LA CRUZ",
-    "DNI": "71111212",
+    "NOMBRE Y APELLIDOS": "YEFERSON COMETIVOS VILLALOBOS",
+    "DNI": "76954589",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
     "VIGENCIA": "Hasta el 31/06/2026"
@@ -156,8 +166,8 @@
   {
     "ID": "18",
     "GRUPO": "GRUPO 3",
-    "NOMBRE Y APELLIDOS": "GUSTAVO RENGIFO PEREZ",
-    "DNI": "48831211",
+    "NOMBRE Y APELLIDOS": "ROXANA GUEVARA PRETELL",
+    "DNI": "77242848",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
     "VIGENCIA": "Hasta el 31/06/2026"
@@ -234,7 +244,8 @@
     "DNI": "73136462",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/JUDITH%20MONTENEGRO-73136462.png"
   },
   {
     "ID": "27",
@@ -252,7 +263,8 @@
     "DNI": "72712342",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/JANINA%20GUERRERO%20AMPUERO-72712342.png"
   },
   {
     "ID": "29",
@@ -306,7 +318,8 @@
     "DNI": "71011987",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/JHAIR%20DEL%20CASTILLO%20DOZA-71011987.png"
   },
   {
     "ID": "35",
@@ -315,7 +328,8 @@
     "DNI": "71247854",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/XINA%20MANUELITA-71247854.png"
   },
   {
     "ID": "36",
@@ -333,7 +347,8 @@
     "DNI": "71247856",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "JEFE DE BRIGADA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/ALEX%20BUSTAMENTE%20TERRONES-71247856.png"
   },
   {
     "ID": "38",
@@ -342,7 +357,8 @@
     "DNI": "73473260",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/ANALI%20GUEVARA-73473260.png"
   },
   {
     "ID": "39",
@@ -351,7 +367,8 @@
     "DNI": "46337189",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/YANETH%20MAGALY-46337189.png"
   },
   {
     "ID": "40",
@@ -369,7 +386,8 @@
     "DNI": "71768251",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
+    "VIGENCIA": "Hasta el 31/06/2026",
+    "FOTO": "img/fotos_perfil_personal/LISETH%20SANCHEZ-71768251.png"
   },
   {
     "ID": "42",
@@ -386,456 +404,6 @@
     "NOMBRE Y APELLIDOS": "ALEXANDER DIAZ COSAVALENTE",
     "DNI": "72945142",
     "PROFESIÓN": "TÉCNICO EN ADMINISTRACIÓN",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "44",
-    "GRUPO": "6",
-    "NOMBRE Y APELLIDOS": "MARIA FERNANDA LOPEZ GARCIA",
-    "DNI": "74839215",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "45",
-    "GRUPO": "12",
-    "NOMBRE Y APELLIDOS": "CARLOS ANDRES QUISPE MAMANI",
-    "DNI": "83920174",
-    "PROFESIÓN": "TECNICO EN FARMACIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "46",
-    "GRUPO": "18",
-    "NOMBRE Y APELLIDOS": "LUCIA ELENA RAMOS PEREZ",
-    "DNI": "71583920",
-    "PROFESIÓN": "TECNICO EN LABORATORIO CLINICO",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "47",
-    "GRUPO": "24",
-    "NOMBRE Y APELLIDOS": "JOSE LUIS TORRES HUAMAN",
-    "DNI": "90217485",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "48",
-    "GRUPO": "30",
-    "NOMBRE Y APELLIDOS": "ANA PAULA VARGAS ROJAS",
-    "DNI": "66748392",
-    "PROFESIÓN": "TECNICO EN NUTRICION",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "49",
-    "GRUPO": "36",
-    "NOMBRE Y APELLIDOS": "DIEGO FERNANDO CASTRO SILVA",
-    "DNI": "78192034",
-    "PROFESIÓN": "TECNICO EN FARMACIA",
-    "CARGO": "JEFE DE BRIGADA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "50",
-    "GRUPO": "42",
-    "NOMBRE Y APELLIDOS": "ROSA MILAGROS SALAZAR CRUZ",
-    "DNI": "82917465",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "51",
-    "GRUPO": "48",
-    "NOMBRE Y APELLIDOS": "LUIS ENRIQUE FLORES QUISPE",
-    "DNI": "73592018",
-    "PROFESIÓN": "TECNICO EN RADIOLOGIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "52",
-    "GRUPO": "54",
-    "NOMBRE Y APELLIDOS": "CARMEN JULIETA MENDOZA DIAZ",
-    "DNI": "91827364",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "53",
-    "GRUPO": "60",
-    "NOMBRE Y APELLIDOS": "PEDRO ANTONIO REYES CHAVEZ",
-    "DNI": "67283910",
-    "PROFESIÓN": "TECNICO EN FARMACIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "54",
-    "GRUPO": "66",
-    "NOMBRE Y APELLIDOS": "ELENA SOFIA NAVARRO PEREZ",
-    "DNI": "75483921",
-    "PROFESIÓN": "TECNICO EN LABORATORIO CLINICO",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "55",
-    "GRUPO": "72",
-    "NOMBRE Y APELLIDOS": "MIGUEL ANGEL ORTIZ RAMIREZ",
-    "DNI": "83910274",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "JEFE DE BRIGADA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "56",
-    "GRUPO": "78",
-    "NOMBRE Y APELLIDOS": "LAURA BEATRIZ CARRILLO TORRES",
-    "DNI": "71029384",
-    "PROFESIÓN": "TECNICO EN NUTRICION",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "57",
-    "GRUPO": "84",
-    "NOMBRE Y APELLIDOS": "JUAN PABLO VERA SOTO",
-    "DNI": "68291037",
-    "PROFESIÓN": "TECNICO EN FARMACIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "58",
-    "GRUPO": "90",
-    "NOMBRE Y APELLIDOS": "GLORIA ESTHER PACHECO RUIZ",
-    "DNI": "92038475",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "59",
-    "GRUPO": "96",
-    "NOMBRE Y APELLIDOS": "RICARDO ALONSO AGUILAR LOPEZ",
-    "DNI": "78102934",
-    "PROFESIÓN": "TECNICO EN RADIOLOGIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "60",
-    "GRUPO": "102",
-    "NOMBRE Y APELLIDOS": "SILVIA MARIBEL SANCHEZ VERA",
-    "DNI": "83920165",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "61",
-    "GRUPO": "108",
-    "NOMBRE Y APELLIDOS": "HUGO CESAR ESPINOZA MORALES",
-    "DNI": "76192830",
-    "PROFESIÓN": "TECNICO EN FARMACIA",
-    "CARGO": "JEFE DE BRIGADA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "62",
-    "GRUPO": "114",
-    "NOMBRE Y APELLIDOS": "VERONICA DEL PILAR CAMPOS DIAZ",
-    "DNI": "64920183",
-    "PROFESIÓN": "TECNICO EN NUTRICION",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "63",
-    "GRUPO": "120",
-    "NOMBRE Y APELLIDOS": "ALBERTO DANIEL RUIZ FLORES",
-    "DNI": "87201934",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "64",
-    "GRUPO": "126",
-    "NOMBRE Y APELLIDOS": "PATRICIA LOURDES GUERRERO SALAS",
-    "DNI": "71920384",
-    "PROFESIÓN": "TECNICO EN LABORATORIO CLINICO",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "65",
-    "GRUPO": "132",
-    "NOMBRE Y APELLIDOS": "OSCAR IVAN PEÑA CASTILLO",
-    "DNI": "69012384",
-    "PROFESIÓN": "TECNICO EN FARMACIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "66",
-    "GRUPO": "138",
-    "NOMBRE Y APELLIDOS": "DANIELA SOLEDAD MORA QUISPE",
-    "DNI": "83192047",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "67",
-    "GRUPO": "144",
-    "NOMBRE Y APELLIDOS": "FERNANDO JAVIER IBARRA REYES",
-    "DNI": "70293841",
-    "PROFESIÓN": "TECNICO EN RADIOLOGIA",
-    "CARGO": "JEFE DE BRIGADA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "68",
-    "GRUPO": "150",
-    "NOMBRE Y APELLIDOS": "NATALIA ROCIO VELASQUEZ RUIZ",
-    "DNI": "81273940",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "69",
-    "GRUPO": "156",
-    "NOMBRE Y APELLIDOS": "SERGIO ALEJANDRO PALOMINO CRUZ",
-    "DNI": "72839401",
-    "PROFESIÓN": "TECNICO EN FARMACIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "70",
-    "GRUPO": "162",
-    "NOMBRE Y APELLIDOS": "MONICA ELIZABETH VALDEZ TORRES",
-    "DNI": "91028374",
-    "PROFESIÓN": "TECNICO EN NUTRICION",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "71",
-    "GRUPO": "168",
-    "NOMBRE Y APELLIDOS": "ARMANDO LUIS MORALES DIAZ",
-    "DNI": "67839201",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "72",
-    "GRUPO": "174",
-    "NOMBRE Y APELLIDOS": "CLAUDIA PATRICIA RIVERA LOPEZ",
-    "DNI": "83920147",
-    "PROFESIÓN": "TECNICO EN LABORATORIO CLINICO",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "73",
-    "GRUPO": "180",
-    "NOMBRE Y APELLIDOS": "GUSTAVO ADOLFO MEZA SALAZAR",
-    "DNI": "72019384",
-    "PROFESIÓN": "TECNICO EN FARMACIA",
-    "CARGO": "JEFE DE BRIGADA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "74",
-    "GRUPO": "186",
-    "NOMBRE Y APELLIDOS": "KAREN YULIANA NUÑEZ PEREZ",
-    "DNI": "69382014",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "75",
-    "GRUPO": "192",
-    "NOMBRE Y APELLIDOS": "EDGAR RENE ARCE HUAMAN",
-    "DNI": "82910374",
-    "PROFESIÓN": "TECNICO EN RADIOLOGIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "76",
-    "GRUPO": "198",
-    "NOMBRE Y APELLIDOS": "LILIANA MARIA CUEVA RAMOS",
-    "DNI": "71029385",
-    "PROFESIÓN": "TECNICO EN NUTRICION",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "77",
-    "GRUPO": "204",
-    "NOMBRE Y APELLIDOS": "VICTOR MANUEL LEON SOTO",
-    "DNI": "90384712",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "78",
-    "GRUPO": "210",
-    "NOMBRE Y APELLIDOS": "YESENIA MILAGROS ROJAS FLORES",
-    "DNI": "78120394",
-    "PROFESIÓN": "TECNICO EN FARMACIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "79",
-    "GRUPO": "216",
-    "NOMBRE Y APELLIDOS": "MARCO ANTONIO SILVA CRUZ",
-    "DNI": "83920184",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "JEFE DE BRIGADA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "80",
-    "GRUPO": "222",
-    "NOMBRE Y APELLIDOS": "PATRICIA ROSA QUINTEROS LOPEZ",
-    "DNI": "67201938",
-    "PROFESIÓN": "TECNICO EN LABORATORIO CLINICO",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "81",
-    "GRUPO": "228",
-    "NOMBRE Y APELLIDOS": "RAUL EDUARDO CHAVEZ DIAZ",
-    "DNI": "78192035",
-    "PROFESIÓN": "TECNICO EN FARMACIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "82",
-    "GRUPO": "234",
-    "NOMBRE Y APELLIDOS": "SANDRA ELENA ORIHUELA TORRES",
-    "DNI": "92018374",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "83",
-    "GRUPO": "240",
-    "NOMBRE Y APELLIDOS": "LUIS MIGUEL ACOSTA PEREZ",
-    "DNI": "67192834",
-    "PROFESIÓN": "TECNICO EN NUTRICION",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "84",
-    "GRUPO": "246",
-    "NOMBRE Y APELLIDOS": "VANESSA KARINA GUTIERREZ SALAS",
-    "DNI": "83910275",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "85",
-    "GRUPO": "252",
-    "NOMBRE Y APELLIDOS": "CESAR AUGUSTO NAVARRO FLORES",
-    "DNI": "78201934",
-    "PROFESIÓN": "TECNICO EN RADIOLOGIA",
-    "CARGO": "JEFE DE BRIGADA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "86",
-    "GRUPO": "258",
-    "NOMBRE Y APELLIDOS": "MARIA JOSE CAMPOS RIVERA",
-    "DNI": "91820374",
-    "PROFESIÓN": "TECNICO EN FARMACIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "87",
-    "GRUPO": "264",
-    "NOMBRE Y APELLIDOS": "RODRIGO ESTEBAN FLORES DIAZ",
-    "DNI": "71029386",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "88",
-    "GRUPO": "270",
-    "NOMBRE Y APELLIDOS": "JULIETA ANDREA PEÑA SALAZAR",
-    "DNI": "67201939",
-    "PROFESIÓN": "TECNICO EN NUTRICION",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "89",
-    "GRUPO": "276",
-    "NOMBRE Y APELLIDOS": "ALDO FERNANDO VARGAS CRUZ",
-    "DNI": "83920185",
-    "PROFESIÓN": "TECNICO EN LABORATORIO CLINICO",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "90",
-    "GRUPO": "282",
-    "NOMBRE Y APELLIDOS": "ROCIO DEL PILAR LOZANO PEREZ",
-    "DNI": "78192036",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "91",
-    "GRUPO": "288",
-    "NOMBRE Y APELLIDOS": "JORGE LUIS MENDOZA QUISPE",
-    "DNI": "92018375",
-    "PROFESIÓN": "TECNICO EN FARMACIA",
-    "CARGO": "JEFE DE BRIGADA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "92",
-    "GRUPO": "294",
-    "NOMBRE Y APELLIDOS": "CARLA DANIELA RUIZ TORRES",
-    "DNI": "67192835",
-    "PROFESIÓN": "TECNICO EN ENFERMERIA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/06/2026"
-  },
-  {
-    "ID": "93",
-    "GRUPO": "300",
-    "NOMBRE Y APELLIDOS": "ENRIQUE DAVID PAREDES FLORES",
-    "DNI": "83910276",
-    "PROFESIÓN": "TECNICO EN RADIOLOGIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
     "VIGENCIA": "Hasta el 31/06/2026"
   }
