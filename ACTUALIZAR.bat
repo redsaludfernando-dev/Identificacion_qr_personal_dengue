@@ -17,7 +17,7 @@ echo.
 REM ----------------------------------------------------------------
 REM  PASO 0 - Comprobar que las herramientas esten instaladas
 REM ----------------------------------------------------------------
-echo [0/6] Comprobando herramientas...
+echo [0/7] Comprobando herramientas...
 
 where git >nul 2>&1
 if errorlevel 1 (
@@ -62,7 +62,7 @@ echo.
 REM ----------------------------------------------------------------
 REM  PASO 1 - Regenerar datos.json y los QR que falten
 REM ----------------------------------------------------------------
-echo [1/6] Regenerando datos.json y codigos QR...
+echo [1/7] Regenerando datos.json y codigos QR...
 echo.
 call node generar.js
 if errorlevel 1 (
@@ -76,7 +76,7 @@ echo.
 REM ----------------------------------------------------------------
 REM  PASO 2 - Verificar que todo este coherente (freno de seguridad)
 REM ----------------------------------------------------------------
-echo [2/6] Verificando que todo este correcto...
+echo [2/7] Verificando que todo este correcto...
 echo.
 call node verificar.js
 if errorlevel 1 (
@@ -93,7 +93,7 @@ echo.
 REM ----------------------------------------------------------------
 REM  PASO 3 - Confirmar los cambios (commit)
 REM ----------------------------------------------------------------
-echo [3/6] Preparando los cambios...
+echo [3/7] Preparando los cambios...
 
 for /f "delims=" %%c in ('git status --porcelain') do set "HAY_CAMBIOS=1"
 
@@ -115,15 +115,23 @@ echo   Archivos que se van a subir:
 git status --short
 echo.
 
+for /f "delims=" %%d in ('powershell -NoProfile -Command "Get-Date -Format \"yyyy-MM-dd HH:mm\""') do set "FECHA=%%d"
+set "POR_DEFECTO=Actualizar datos del personal - !FECHA!"
+
 set "MENSAJE=%~1"
 if not defined MENSAJE (
-    for /f %%d in ('powershell -NoProfile -Command "Get-Date -Format \"yyyy-MM-dd HH:mm\""') do set "FECHA=%%d"
-    for /f "tokens=1,2 delims= " %%d in ("!FECHA!") do set "FECHA=%%d %%e"
     echo   Escribe una descripcion del cambio y pulsa ENTER.
-    echo   ^(Si lo dejas vacio se usara: "Actualizar datos del personal - !FECHA!"^)
+    echo   ^(Si lo dejas vacio se usara: "!POR_DEFECTO!"^)
     echo.
     set /p "MENSAJE=  Descripcion: "
-    if "!MENSAJE!"=="" set "MENSAJE=Actualizar datos del personal - !FECHA!"
+)
+
+REM  Si quedo vacio o es demasiado corto para significar algo, usamos el texto por defecto.
+if not defined MENSAJE set "MENSAJE=!POR_DEFECTO!"
+set "PRUEBA=!MENSAJE:~4!"
+if not defined PRUEBA (
+    echo   ^(Descripcion demasiado corta, se usara la de por defecto.^)
+    set "MENSAJE=!POR_DEFECTO!"
 )
 
 git add -A
@@ -147,7 +155,7 @@ REM ----------------------------------------------------------------
 REM  PASO 4 - Traer lo que haya en GitHub antes de subir
 REM ----------------------------------------------------------------
 :paso_pull
-echo [4/6] Trayendo cambios desde GitHub...
+echo [4/7] Trayendo cambios desde GitHub...
 git pull --rebase origin %RAMA%
 if not errorlevel 1 goto :paso_push
 
@@ -190,9 +198,48 @@ echo   OK - Conflicto resuelto automaticamente.
 echo.
 
 REM ----------------------------------------------------------------
-REM  PASO 5 - Subir a GitHub
+REM  PASO 5 - Volver a revisar DESPUES de combinar con GitHub
+REM
+REM  Importante: git puede combinar datos.json linea por linea sin
+REM  avisar de conflicto, y dejarlo diciendo algo distinto al CSV.
+REM  Por eso se regenera y se vuelve a verificar antes de subir.
 REM ----------------------------------------------------------------
-echo [5/6] Subiendo a GitHub...
+echo [5/7] Revisando de nuevo tras combinar con GitHub...
+call node generar.js >nul
+if errorlevel 1 (
+    echo.
+    echo   ERROR: Fallo la regeneracion despues del pull.
+    goto :fin_error
+)
+
+set "REGENERADO="
+for /f "delims=" %%c in ('git status --porcelain') do set "REGENERADO=1"
+if defined REGENERADO (
+    echo   Los cambios de GitHub obligaron a rehacer datos.json. Lo confirmo.
+    git add -A
+    git commit -m "Regenerar datos.json tras combinar con los cambios de GitHub" >nul
+)
+
+call node verificar.js
+if errorlevel 1 (
+    echo.
+    echo ============================================================
+    echo   SE DETUVO ANTES DE SUBIR.
+    echo.
+    echo   Al combinar tus cambios con los de GitHub quedaron datos
+    echo   inconsistentes. NO se subio nada, para no publicar un
+    echo   fotocheck equivocado.
+    echo.
+    echo   Corrige lo que aparece en rojo y vuelve a ejecutar.
+    echo ============================================================
+    goto :fin_error
+)
+echo.
+
+REM ----------------------------------------------------------------
+REM  PASO 6 - Subir a GitHub
+REM ----------------------------------------------------------------
+echo [6/7] Subiendo a GitHub...
 git push origin %RAMA%
 if errorlevel 1 (
     echo.
@@ -204,9 +251,9 @@ if errorlevel 1 (
 echo.
 
 REM ----------------------------------------------------------------
-REM  PASO 6 - Listo
+REM  PASO 7 - Listo
 REM ----------------------------------------------------------------
-echo [6/6] Listo.
+echo [7/7] Listo.
 echo.
 if defined SIN_CAMBIOS (
     echo ============================================================
@@ -228,7 +275,8 @@ echo.
 echo   Los QR impresos NO necesitan reemplazarse.
 echo ============================================================
 echo.
-choice /c SN /n /m "  Quieres abrir la pagina para revisarla? (S/N): "
+choice /c SN /n /d N /t 15 /m "  Quieres abrir la pagina para revisarla? (S/N): " 2>nul
+if errorlevel 255 goto :fin
 if not errorlevel 2 start "" "%REPO_URL%/perfil.html?id=1"
 goto :fin
 
@@ -252,6 +300,8 @@ echo ============================================================
 goto :fin_error
 
 :conflicto_manual
+set "GIT_EDITOR=true"
+git rebase --abort >nul 2>&1
 echo.
 echo ============================================================
 echo   SE DETUVO: conflicto que necesita tu decision.
@@ -259,12 +309,14 @@ echo.
 echo   Los archivos de arriba se editaron en dos lados a la vez
 echo   ^(en esta PC y directamente en la web de GitHub^), y hay
 echo   que decidir con cual version quedarse. Eso no lo puedo
-echo   decidir automaticamente sin arriesgar tus datos.
+echo   decidir solo sin arriesgar tus datos.
 echo.
-echo   Mira la seccion "Si aparece un conflicto" del README,
-echo   o pide ayuda antes de tocar nada.
+echo   TUS CAMBIOS NO SE PERDIERON. Deje el repositorio limpio,
+echo   tal como estaba antes de intentar subir, con tu commit
+echo   intacto. No hay nada a medio terminar.
 echo.
-echo   Tus cambios NO se perdieron: siguen guardados aqui.
+echo   Para resolverlo, mira la seccion "Si aparece un conflicto"
+echo   del README, o pide ayuda antes de tocar nada.
 echo ============================================================
 goto :fin_error
 

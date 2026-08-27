@@ -19,6 +19,7 @@ Permite identificar al personal de campo mediante el escaneo de un código QR ú
 *   `datos_personal_dengue.csv`: **La base de datos.** Aquí está la lista de todo el personal (ID, Grupo, Nombres, DNI, Profesión, Cargo, Vigencia).
 *   `generar.js`: El script (motor) que lee el CSV, crea los QRs únicos si no existen y actualiza los datos web.
 *   `verificar.js`: Revisor automático. Comprueba que todo esté coherente **antes** de subir a GitHub (ver paso 4).
+*   `ACTUALIZAR.bat`: **Haz doble clic aquí para publicar los cambios.** Hace todo el proceso solo (ver abajo).
 *   `perfil.html`: La página web que se abre al escanear el QR (el diseño del fotocheck).
 *   `estilos.css`: Los colores, logos y fondos de la página web.
 *   `img/fotos_perfil_personal/`: Carpeta donde se guardan las fotos del personal. El nombre del archivo debe contener el **DNI** de la persona (ej. `Juan Perez-76124515.jpg`).
@@ -28,7 +29,30 @@ Permite identificar al personal de campo mediante el escaneo de un código QR ú
 
 ---
 
-## 🛠️ ¿Cómo agregar nuevo personal o actualizar datos?
+## 🚀 La forma fácil: `ACTUALIZAR.bat`
+
+Después de editar el CSV o agregar fotos, **haz doble clic en `ACTUALIZAR.bat`**. Eso es todo.
+
+El programa hace solo los 7 pasos: regenera `datos.json` y los QR que falten, verifica que no haya errores, te pide una descripción del cambio, trae lo que haya en GitHub, vuelve a verificar y publica.
+
+**Se detiene sin subir nada si algo está mal.** Es su función principal:
+
+| Situación | Qué hace |
+|---|---|
+| Hay un error en los datos (DNI raro, ID duplicado, foto rota) | Se detiene y te muestra qué corregir. No sube nada. |
+| El CSV está abierto en Excel | Se detiene y te avisa que lo cierres. |
+| GitHub tiene cambios nuevos | Los trae, vuelve a verificar y recién ahí publica. |
+| Chocó solo `datos.json` | Lo resuelve solo: ese archivo se regenera desde el CSV. |
+| Chocó el CSV (editado en dos lados) | **Se detiene.** Deja tu repositorio limpio y tus cambios intactos, y te dice que pidas ayuda. |
+| No hay internet | Se detiene. Tus cambios quedan guardados localmente. |
+
+> En ningún caso pierdes trabajo: si algo falla, tus cambios siguen guardados en tu PC y el repositorio queda en un estado limpio, sin nada a medio terminar.
+
+Si prefieres escribir tú los comandos, o quieres entender qué hace por dentro, sigue leyendo.
+
+---
+
+## 🛠️ ¿Cómo agregar nuevo personal o actualizar datos? (paso a paso manual)
 
 Si hay nuevo personal en la brigada o alguien cambió de cargo, sigue estos pasos:
 

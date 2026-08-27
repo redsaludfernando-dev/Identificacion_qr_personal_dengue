@@ -1,0 +1,3 @@
+# Los .bat deben conservar CRLF: cmd.exe calcula mal los saltos
+# a etiquetas (goto) si el archivo tiene finales de linea LF.
+*.bat text eol=crlf
