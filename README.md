@@ -18,6 +18,7 @@ Permite identificar al personal de campo mediante el escaneo de un código QR ú
 
 *   `datos_personal_dengue.csv`: **La base de datos.** Aquí está la lista de todo el personal (ID, Grupo, Nombres, DNI, Profesión, Cargo, Vigencia).
 *   `generar.js`: El script (motor) que lee el CSV, crea los QRs únicos si no existen y actualiza los datos web.
+*   `verificar.js`: Revisor automático. Comprueba que todo esté coherente **antes** de subir a GitHub (ver paso 4).
 *   `perfil.html`: La página web que se abre al escanear el QR (el diseño del fotocheck).
 *   `estilos.css`: Los colores, logos y fondos de la página web.
 *   `img/fotos_perfil_personal/`: Carpeta donde se guardan las fotos del personal. El nombre del archivo debe contener el **DNI** de la persona (ej. `Juan Perez-76124515.jpg`).
@@ -50,7 +51,33 @@ node generar.js
 *(También puedes usar `npm run generar` si está configurado).*
 Esto actualizará el archivo `datos.json` y creará los nuevos códigos QR en la carpeta `qrs/` solo para los nuevos IDs. Los QRs existentes no se sobreescribirán.
 
-### 4. Subir los cambios a Internet (GitHub)
+### 4. Verificar que todo esté correcto
+
+**Antes de subir nada**, ejecuta el revisor automático:
+
+```bash
+node verificar.js
+```
+
+Revisa en unos segundos y te dice en español qué está bien y qué no:
+
+| Revisa | Para qué sirve |
+|---|---|
+| Marcas de conflicto `<<<<<<<` | Que no subas un archivo a medio resolver |
+| IDs y DNIs | IDs duplicados o vacíos, DNIs con caracteres raros de Excel, ceros comidos |
+| `datos.json` vs CSV | **Avisa si te olvidaste de correr `node generar.js`** — el error más común |
+| Fotos | Que cada foto exista, ninguna quede huérfana y no falte vincular |
+| QRs | Que cada persona del CSV tenga su QR |
+| Brigadas y vigencias | Grupos sin jefe o con dos, y fechas que no existen (ej. `31/09`) |
+| Estado de Git | Si GitHub tiene cambios nuevos y **si van a chocar con los tuyos** |
+
+*   ✔ **verde** = correcto.
+*   ! **amarillo** = aviso, revísalo pero no impide subir.
+*   ✘ **rojo** = error, corrígelo antes de subir.
+
+Si sale todo verde, el push entrará sin problemas.
+
+### 5. Subir los cambios a Internet (GitHub)
 Para que los cambios se reflejen cuando alguien escanee el código con su celular, debes subir la actualización ejecutando estos comandos en tu terminal, uno por uno:
 
 ```bash

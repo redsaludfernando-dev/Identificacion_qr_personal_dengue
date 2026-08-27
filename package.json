@@ -4,7 +4,8 @@
   "description": "App para identificación con QR",
   "main": "generar.js",
   "scripts": {
-    "generar": "node generar.js"
+    "generar": "node generar.js",
+    "verificar": "node verificar.js"
   },
   "dependencies": {
     "csv-parser": "^3.0.0",
