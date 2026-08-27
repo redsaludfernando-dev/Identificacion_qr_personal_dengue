@@ -1,0 +1,279 @@
+@echo off
+setlocal EnableDelayedExpansion
+chcp 65001 >nul 2>&1
+cd /d "%~dp0"
+title Actualizar fotochecks QR - Personal Dengue
+
+set "REPO_URL=https://redsaludfernando-dev.github.io/Identificacion_qr_personal_dengue"
+set "RAMA=main"
+
+echo.
+echo ============================================================
+echo   ACTUALIZAR FOTOCHECKS QR - PERSONAL DENGUE
+echo   UNGET Rioja - Vigilancia y Control Vectorial
+echo ============================================================
+echo.
+
+REM ----------------------------------------------------------------
+REM  PASO 0 - Comprobar que las herramientas esten instaladas
+REM ----------------------------------------------------------------
+echo [0/6] Comprobando herramientas...
+
+where git >nul 2>&1
+if errorlevel 1 (
+    echo.
+    echo   ERROR: No se encontro Git en este equipo.
+    echo   Instalalo desde https://git-scm.com/ y vuelve a intentar.
+    goto :fin_error
+)
+
+where node >nul 2>&1
+if errorlevel 1 (
+    echo.
+    echo   ERROR: No se encontro Node.js en este equipo.
+    echo   Instalalo desde https://nodejs.org/ y vuelve a intentar.
+    goto :fin_error
+)
+
+git rev-parse --is-inside-work-tree >nul 2>&1
+if errorlevel 1 (
+    echo.
+    echo   ERROR: Esta carpeta no es un repositorio Git.
+    echo   Carpeta actual: %CD%
+    goto :fin_error
+)
+
+if exist ".git\rebase-merge" goto :rebase_pendiente
+if exist ".git\rebase-apply" goto :rebase_pendiente
+if exist ".git\MERGE_HEAD"   goto :rebase_pendiente
+
+if not exist "node_modules\" (
+    echo   Faltan las dependencias. Instalando ^(esto puede tardar un minuto^)...
+    call npm install
+    if errorlevel 1 (
+        echo.
+        echo   ERROR: Fallo "npm install".
+        goto :fin_error
+    )
+)
+echo   OK - Git y Node.js listos.
+echo.
+
+REM ----------------------------------------------------------------
+REM  PASO 1 - Regenerar datos.json y los QR que falten
+REM ----------------------------------------------------------------
+echo [1/6] Regenerando datos.json y codigos QR...
+echo.
+call node generar.js
+if errorlevel 1 (
+    echo.
+    echo   ERROR: Fallo la generacion. Revisa el mensaje de arriba.
+    echo   Lo mas comun: el archivo CSV esta abierto en Excel. Cierralo.
+    goto :fin_error
+)
+echo.
+
+REM ----------------------------------------------------------------
+REM  PASO 2 - Verificar que todo este coherente (freno de seguridad)
+REM ----------------------------------------------------------------
+echo [2/6] Verificando que todo este correcto...
+echo.
+call node verificar.js
+if errorlevel 1 (
+    echo.
+    echo ============================================================
+    echo   SE DETUVO: hay ERRORES en los datos.
+    echo   NO se subio nada. Corrige lo que aparece en rojo
+    echo   arriba y vuelve a ejecutar este archivo.
+    echo ============================================================
+    goto :fin_error
+)
+echo.
+
+REM ----------------------------------------------------------------
+REM  PASO 3 - Confirmar los cambios (commit)
+REM ----------------------------------------------------------------
+echo [3/6] Preparando los cambios...
+
+for /f "delims=" %%c in ('git status --porcelain') do set "HAY_CAMBIOS=1"
+
+if not defined HAY_CAMBIOS (
+    for /f "delims=" %%a in ('git rev-list --count origin/%RAMA%..%RAMA% 2^>nul') do set "PENDIENTES=%%a"
+    if "!PENDIENTES!"=="0" (
+        echo   No hay nada nuevo que subir.
+        echo   Igual reviso GitHub para que tu copia no se quede vieja.
+        set "SIN_CAMBIOS=1"
+    ) else (
+        echo   No hay archivos modificados, pero hay !PENDIENTES! commit^(s^) sin subir.
+    )
+    echo.
+    goto :paso_pull
+)
+
+echo.
+echo   Archivos que se van a subir:
+git status --short
+echo.
+
+set "MENSAJE=%~1"
+if not defined MENSAJE (
+    for /f %%d in ('powershell -NoProfile -Command "Get-Date -Format \"yyyy-MM-dd HH:mm\""') do set "FECHA=%%d"
+    for /f "tokens=1,2 delims= " %%d in ("!FECHA!") do set "FECHA=%%d %%e"
+    echo   Escribe una descripcion del cambio y pulsa ENTER.
+    echo   ^(Si lo dejas vacio se usara: "Actualizar datos del personal - !FECHA!"^)
+    echo.
+    set /p "MENSAJE=  Descripcion: "
+    if "!MENSAJE!"=="" set "MENSAJE=Actualizar datos del personal - !FECHA!"
+)
+
+git add -A
+if errorlevel 1 (
+    echo.
+    echo   ERROR: Fallo "git add".
+    goto :fin_error
+)
+
+git commit -m "!MENSAJE!" >nul
+if errorlevel 1 (
+    echo.
+    echo   ERROR: Fallo "git commit".
+    goto :fin_error
+)
+echo.
+echo   OK - Cambios confirmados localmente.
+echo.
+
+REM ----------------------------------------------------------------
+REM  PASO 4 - Traer lo que haya en GitHub antes de subir
+REM ----------------------------------------------------------------
+:paso_pull
+echo [4/6] Trayendo cambios desde GitHub...
+git pull --rebase origin %RAMA%
+if not errorlevel 1 goto :paso_push
+
+REM  El pull fallo. Si no hay rebase a medias, fue un problema de red.
+if not exist ".git\rebase-merge" (
+    echo.
+    echo   ERROR: No se pudo conectar con GitHub.
+    echo   Revisa tu conexion a internet y vuelve a intentar.
+    echo   No se subio nada; tus cambios quedaron guardados localmente.
+    goto :fin_error
+)
+
+REM  Hay conflicto. Vemos que archivos chocaron.
+echo.
+echo   Se detecto un CONFLICTO. Analizando...
+set "CONF_TOTAL=0"
+set "CONF_OTROS=0"
+for /f "delims=" %%f in ('git diff --name-only --diff-filter=U') do (
+    set /a CONF_TOTAL+=1
+    if /i not "%%f"=="datos.json" (
+        set /a CONF_OTROS+=1
+        echo     - %%f
+    )
+)
+
+if !CONF_OTROS! GTR 0 goto :conflicto_manual
+
+REM  Solo choco datos.json, que es un archivo generado: se puede rehacer.
+echo   Solo choco datos.json, que se genera automaticamente.
+echo   Lo regenero desde el CSV y continuo...
+call node generar.js >nul
+if errorlevel 1 goto :conflicto_manual
+git add datos.json
+set "GIT_EDITOR=true"
+git rebase --continue >nul 2>&1
+if errorlevel 1 goto :conflicto_manual
+echo   OK - Conflicto resuelto automaticamente.
+
+:paso_push
+echo.
+
+REM ----------------------------------------------------------------
+REM  PASO 5 - Subir a GitHub
+REM ----------------------------------------------------------------
+echo [5/6] Subiendo a GitHub...
+git push origin %RAMA%
+if errorlevel 1 (
+    echo.
+    echo   ERROR: No se pudo subir.
+    echo   Tus cambios estan guardados localmente, no se perdio nada.
+    echo   Vuelve a ejecutar este archivo; si sigue fallando, avisa.
+    goto :fin_error
+)
+echo.
+
+REM ----------------------------------------------------------------
+REM  PASO 6 - Listo
+REM ----------------------------------------------------------------
+echo [6/6] Listo.
+echo.
+if defined SIN_CAMBIOS (
+    echo ============================================================
+    echo   TODO YA ESTABA AL DIA
+    echo.
+    echo   No habia nada nuevo que subir, y tu copia local quedo
+    echo   sincronizada con GitHub.
+    echo ============================================================
+    echo.
+    goto :fin
+)
+echo ============================================================
+echo   ACTUALIZACION COMPLETADA
+echo.
+echo   Espera alrededor de 1 minuto y la web ya mostrara
+echo   los datos nuevos al escanear cualquier QR:
+echo   %REPO_URL%/perfil.html?id=1
+echo.
+echo   Los QR impresos NO necesitan reemplazarse.
+echo ============================================================
+echo.
+choice /c SN /n /m "  Quieres abrir la pagina para revisarla? (S/N): "
+if not errorlevel 2 start "" "%REPO_URL%/perfil.html?id=1"
+goto :fin
+
+REM ================================================================
+REM  Salidas
+REM ================================================================
+
+:rebase_pendiente
+echo.
+echo ============================================================
+echo   ATENCION: hay una actualizacion a medio terminar.
+echo.
+echo   Esto pasa si una subida anterior se interrumpio.
+echo   Para cancelarla y volver a como estabas, abre Git Bash
+echo   en esta carpeta y ejecuta:
+echo.
+echo       git rebase --abort
+echo.
+echo   Despues vuelve a ejecutar este archivo.
+echo ============================================================
+goto :fin_error
+
+:conflicto_manual
+echo.
+echo ============================================================
+echo   SE DETUVO: conflicto que necesita tu decision.
+echo.
+echo   Los archivos de arriba se editaron en dos lados a la vez
+echo   ^(en esta PC y directamente en la web de GitHub^), y hay
+echo   que decidir con cual version quedarse. Eso no lo puedo
+echo   decidir automaticamente sin arriesgar tus datos.
+echo.
+echo   Mira la seccion "Si aparece un conflicto" del README,
+echo   o pide ayuda antes de tocar nada.
+echo.
+echo   Tus cambios NO se perdieron: siguen guardados aqui.
+echo ============================================================
+goto :fin_error
+
+:fin_error
+echo.
+pause
+exit /b 1
+
+:fin
+echo.
+pause
+exit /b 0
