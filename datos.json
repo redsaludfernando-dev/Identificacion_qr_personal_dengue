@@ -306,10 +306,11 @@
     "ID": "33",
     "GRUPO": "GRUPO 5",
     "NOMBRE Y APELLIDOS": "ALEXANDER MEJIA MELENDRES",
-    "DNI": "`00832388",
+    "DNI": "00832388",
     "PROFESIÓN": "EGR. MECÁNICA AUTOMOTRIZ",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "Hasta el 31/09/2026",
+    "FOTO": "img/fotos_perfil_personal/ALEXANDER%20MEJIA-00832388.png"
   },
   {
     "ID": "34",

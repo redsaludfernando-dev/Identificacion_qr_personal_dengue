@@ -39,6 +39,8 @@ Abre el archivo `datos_personal_dengue.csv`.
 ### 2. Actualizar Foto de Perfil (Opcional)
 Si deseas agregar o actualizar la foto de un trabajador, simplemente guarda la imagen en la carpeta `img/fotos_perfil_personal/`. Asegúrate de que el nombre del archivo de la foto contenga el número de **DNI** del trabajador (ejemplo: `76124515.png` o `FOTO-76124515.jpg`).
 
+> ⚠️ **El DNI del nombre del archivo debe coincidir *exactamente* con el DNI de la columna `DNI` del CSV**, incluidos los ceros a la izquierda. Si Excel guardó el DNI con una comilla invertida delante (`` `00832388``) o le quitó un cero inicial, la foto **no se vinculará** y el fotocheck mostrará el avatar de iniciales aunque la imagen esté en la carpeta. Si una foto no aparece, abre el CSV con el Bloc de notas y revisa ese campo.
+
 ### 3. Generar / Actualizar
 Abre tu terminal (Símbolo del sistema o PowerShell), asegúrate de estar en la carpeta del proyecto y ejecuta:
 
@@ -49,15 +51,55 @@ node generar.js
 Esto actualizará el archivo `datos.json` y creará los nuevos códigos QR en la carpeta `qrs/` solo para los nuevos IDs. Los QRs existentes no se sobreescribirán.
 
 ### 4. Subir los cambios a Internet (GitHub)
-Para que los cambios se reflejen cuando alguien escanee el código con su celular, debes subir la actualización ejecutando estos tres comandos en tu terminal uno por uno:
+Para que los cambios se reflejen cuando alguien escanee el código con su celular, debes subir la actualización ejecutando estos comandos en tu terminal, uno por uno:
 
 ```bash
 git add .
+```
+```bash
 git commit -m "Actualizar datos del personal"
+```
+```bash
+git pull --rebase origin main
+```
+```bash
 git push origin main
 ```
 
+El `git pull --rebase` es importante: trae primero los cambios que se hayan hecho desde otra computadora o editando archivos directamente en la web de GitHub. **Si lo saltas y el repositorio remoto ya tenía cambios nuevos, el `push` será rechazado.**
+
 ¡Listo! Espera alrededor de 1 minuto y la página web estará actualizada con la nueva información.
+
+#### ⚡ Si aparece un conflicto (`CONFLICT`)
+
+Ocurre cuando el mismo dato se editó en dos lados a la vez. Git deja marcas `<<<<<<<` y `>>>>>>>` dentro del archivo y **no deja subir nada** hasta resolverlo.
+
+Para quedarte con **tu versión local** (lo normal cuando acabas de actualizar el CSV y regenerar todo):
+
+```bash
+git checkout --theirs datos.json datos_personal_dengue.csv
+```
+```bash
+git add datos.json datos_personal_dengue.csv
+```
+```bash
+git rebase --continue
+```
+```bash
+git push origin main
+```
+
+Si prefieres cancelar todo y volver a como estabas antes de intentar el pull:
+
+```bash
+git rebase --abort
+```
+
+Para ver en qué estado quedó el repositorio en cualquier momento:
+
+```bash
+git status
+```
 
 ---
 
@@ -71,3 +113,23 @@ Una vez clonado el repositorio, instala las dependencias antes de generar QRs po
 ```bash
 npm install
 ```
+
+---
+
+## 🔑 Que no vuelva a pedir usuario y contraseña
+
+El acceso a GitHub se guarda con **Git Credential Manager**, que almacena el token en el Administrador de credenciales de Windows. Este equipo ya quedó configurado así:
+
+```bash
+git config --global credential.helper manager
+```
+```bash
+git config --global credential.credentialStore wincredman
+```
+```bash
+git config --global credential.https://github.com.username redsaludfernando-dev
+```
+
+Con eso el `git push` no vuelve a preguntar nada. Si algún día **sí** vuelve a pedir credenciales, casi siempre es porque el token caducó: se abrirá una ventana del navegador para iniciar sesión en GitHub y quedará guardado de nuevo automáticamente.
+
+> 🔒 **Nunca** pongas el token dentro de la URL del repositorio (`https://usuario:token@github.com/...`). Quedaría guardado en texto plano dentro de `.git/config`, visible para cualquiera con acceso a la carpeta.
