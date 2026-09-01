@@ -21,7 +21,7 @@
   },
   {
     "ID": "3",
-    "GRUPO": "GRUPO 1",
+    "GRUPO": "GRUPO 5",
     "NOMBRE Y APELLIDOS": "LUZ JHOANA TUESTA ALTAMIRANO",
     "DNI": "71121828",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
@@ -31,7 +31,7 @@
   },
   {
     "ID": "4",
-    "GRUPO": "GRUPO 4",
+    "GRUPO": "GRUPO 6",
     "NOMBRE Y APELLIDOS": "JAIR DELGADO NUÑEZ",
     "DNI": "76646049",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
@@ -50,7 +50,7 @@
   },
   {
     "ID": "6",
-    "GRUPO": "GRUPO 1",
+    "GRUPO": "GRUPO 5",
     "NOMBRE Y APELLIDOS": "MAGALY KELITA MONTEZA CALDERON",
     "DNI": "74431693",
     "PROFESIÓN": "TÉCNICO EN ENFERMERIA",
@@ -60,7 +60,7 @@
   },
   {
     "ID": "7",
-    "GRUPO": "GRUPO 1",
+    "GRUPO": "GRUPO 2",
     "NOMBRE Y APELLIDOS": "KIMBERLY ANAIS RÍOS ISLA",
     "DNI": "73087942",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
@@ -70,7 +70,7 @@
   },
   {
     "ID": "8",
-    "GRUPO": "GRUPO 2",
+    "GRUPO": "GRUPO 1",
     "NOMBRE Y APELLIDOS": "CESAR AUGUSTO SILVA CARDENAS",
     "DNI": "03380626",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
@@ -80,7 +80,7 @@
   },
   {
     "ID": "9",
-    "GRUPO": "GRUPO 2",
+    "GRUPO": "GRUPO 6",
     "NOMBRE Y APELLIDOS": "FLOR STEFANNY ESCUDERO ESCUDERO",
     "DNI": "46433923",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
@@ -90,7 +90,7 @@
   },
   {
     "ID": "10",
-    "GRUPO": "GRUPO 2",
+    "GRUPO": "GRUPO 6",
     "NOMBRE Y APELLIDOS": "LALI ANDREA SANCHEZ HUACAL",
     "DNI": "70549008",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
@@ -100,7 +100,7 @@
   },
   {
     "ID": "11",
-    "GRUPO": "GRUPO 2",
+    "GRUPO": "GRUPO 4",
     "NOMBRE Y APELLIDOS": "ROONEY RICARDO FLORES MILIAN",
     "DNI": "74399068",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
@@ -130,7 +130,7 @@
   },
   {
     "ID": "14",
-    "GRUPO": "GRUPO 2",
+    "GRUPO": "GRUPO 5",
     "NOMBRE Y APELLIDOS": "NEISER ELVIS DAVILA MEDINA",
     "DNI": "74939156",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
@@ -160,7 +160,7 @@
   },
   {
     "ID": "17",
-    "GRUPO": "GRUPO 7",
+    "GRUPO": "GRUPO 3",
     "NOMBRE Y APELLIDOS": "YEFERSON COMETIVOS VILLALOBOS",
     "DNI": "76954589",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
@@ -170,7 +170,7 @@
   },
   {
     "ID": "18",
-    "GRUPO": "GRUPO 3",
+    "GRUPO": "GRUPO 4",
     "NOMBRE Y APELLIDOS": "ROXANA GUEVARA PRETELL",
     "DNI": "77242848",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
@@ -180,7 +180,7 @@
   },
   {
     "ID": "19",
-    "GRUPO": "GRUPO 3",
+    "GRUPO": "GRUPO 1",
     "NOMBRE Y APELLIDOS": "GISELLA BAUTISTA ROJAS",
     "DNI": "48537908",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
@@ -219,7 +219,7 @@
   },
   {
     "ID": "23",
-    "GRUPO": "GRUPO 4",
+    "GRUPO": "GRUPO 6",
     "NOMBRE Y APELLIDOS": "CLEMENCIA DELGADO VASQUEZ",
     "DNI": "43088329",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
@@ -229,7 +229,7 @@
   },
   {
     "ID": "24",
-    "GRUPO": "GRUPO 2",
+    "GRUPO": "GRUPO 1",
     "NOMBRE Y APELLIDOS": "TITO CHUNG VASQUEZ",
     "DNI": "70183395",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
@@ -239,7 +239,7 @@
   },
   {
     "ID": "25",
-    "GRUPO": "GRUPO 5",
+    "GRUPO": "GRUPO 4",
     "NOMBRE Y APELLIDOS": "DIANA GRETHEL RODRÍGUEZ MURAYARI",
     "DNI": "73140643",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
@@ -249,7 +249,7 @@
   },
   {
     "ID": "26",
-    "GRUPO": "GRUPO 4",
+    "GRUPO": "GRUPO 1",
     "NOMBRE Y APELLIDOS": "JUDITH MONTENEGRO RAMOS",
     "DNI": "73136462",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
@@ -259,7 +259,7 @@
   },
   {
     "ID": "27",
-    "GRUPO": "GRUPO 4",
+    "GRUPO": "GRUPO 2",
     "NOMBRE Y APELLIDOS": "NOLBER SUÁREZ AGUILAR",
     "DNI": "43277814",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
@@ -269,7 +269,7 @@
   },
   {
     "ID": "28",
-    "GRUPO": "GRUPO 4",
+    "GRUPO": "GRUPO 3",
     "NOMBRE Y APELLIDOS": "JANINA GUERRERO AMPUERO",
     "DNI": "72712342",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
@@ -279,7 +279,7 @@
   },
   {
     "ID": "29",
-    "GRUPO": "GRUPO 7",
+    "GRUPO": "GRUPO 2",
     "NOMBRE Y APELLIDOS": "GREYSI VALQUI CADENILLAS",
     "DNI": "47913985",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
@@ -299,7 +299,7 @@
   },
   {
     "ID": "31",
-    "GRUPO": "GRUPO 5",
+    "GRUPO": "GRUPO 3",
     "NOMBRE Y APELLIDOS": "KLEIBER ALVARADO SANTILLAN",
     "DNI": "76306673",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
@@ -309,7 +309,7 @@
   },
   {
     "ID": "32",
-    "GRUPO": "GRUPO 6",
+    "GRUPO": "GRUPO 7",
     "NOMBRE Y APELLIDOS": "MARLY CIEZA RUIZ",
     "DNI": "48382422",
     "PROFESIÓN": "TÉC. ENFERMERIA",
@@ -319,7 +319,7 @@
   },
   {
     "ID": "33",
-    "GRUPO": "GRUPO 5",
+    "GRUPO": "GRUPO 2",
     "NOMBRE Y APELLIDOS": "ALEXANDER MEJIA MELENDRES",
     "DNI": "00832388",
     "PROFESIÓN": "EGR. MECÁNICA AUTOMOTRIZ",
@@ -329,7 +329,7 @@
   },
   {
     "ID": "34",
-    "GRUPO": "GRUPO 1",
+    "GRUPO": "GRUPO 6",
     "NOMBRE Y APELLIDOS": "JHAIR DEL CASTILLO DOZA",
     "DNI": "71011987",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
@@ -358,7 +358,7 @@
   },
   {
     "ID": "37",
-    "GRUPO": "GRUPO 6",
+    "GRUPO": "GRUPO 5",
     "NOMBRE Y APELLIDOS": "ALEX BUSTAMANTE TERRONES",
     "DNI": "71247856",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
@@ -388,17 +388,17 @@
   },
   {
     "ID": "40",
-    "GRUPO": "GRUPO 6",
-    "NOMBRE Y APELLIDOS": "GINA JEYDI TEJEDO CASTILLO",
+    "GRUPO": "GRUPO 2",
+    "NOMBRE Y APELLIDOS": "GINA JEIDY TEJEDO CASTILLO",
     "DNI": "71806754",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
     "VIGENCIA": "Hasta el 30/09/2026",
-    "FOTO": "img/fotos_perfil_personal/GINA%20JEYDI%20TEJEDO%20CASTILLO-71806754.png"
+    "FOTO": "img/fotos_perfil_personal/GINA%20JEIDY%20TEJEDO%20CASTILLO-71806754.png"
   },
   {
     "ID": "41",
-    "GRUPO": "GRUPO 6",
+    "GRUPO": "GRUPO 7",
     "NOMBRE Y APELLIDOS": "LISETH SANCHEZ CONTRERAS",
     "DNI": "71768251",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
@@ -426,7 +426,7 @@
   },
   {
     "ID": "44",
-    "GRUPO": "GRUPO 5",
+    "GRUPO": "GRUPO 1",
     "NOMBRE Y APELLIDOS": "ANALE HUAMAN CORONEL",
     "DNI": "73440143",
     "PROFESIÓN": "TECNICO EN FERMERIA",
@@ -446,7 +446,7 @@
   },
   {
     "ID": "46",
-    "GRUPO": "GRUPO 1",
+    "GRUPO": "GRUPO 7",
     "NOMBRE Y APELLIDOS": "JHON JAYRO CUMAPA PINEDO",
     "DNI": "78010067",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
@@ -466,12 +466,42 @@
   },
   {
     "ID": "48",
-    "GRUPO": "GRUPO 4",
+    "GRUPO": "GRUPO 5",
     "NOMBRE Y APELLIDOS": "DENI GAITAN ESTELA",
     "DNI": "47316035",
     "PROFESIÓN": "TÉCNICA EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
     "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/DENI%20GAITAN%20ESTELA-47316035.png"
+  },
+  {
+    "ID": "49",
+    "GRUPO": "GRUPO 3",
+    "NOMBRE Y APELLIDOS": "ALICIA ITALA RAFAEL TORRES",
+    "DNI": "46061702",
+    "PROFESIÓN": "TÉCNICA EN ENFERMERÍA",
+    "CARGO": "INSPECTOR DE VIVIENDA",
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/ALICIA%20ITALA%20RAFAEL%20TORRES-46061702.jpg"
+  },
+  {
+    "ID": "50",
+    "GRUPO": "GRUPO 4",
+    "NOMBRE Y APELLIDOS": "MARIA MARICEL HERRERA IDROGO",
+    "DNI": "47938086",
+    "PROFESIÓN": "TÉCNICA EN ENFERMERÍA",
+    "CARGO": "INSPECTOR DE VIVIENDA",
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/MARIA%20MARICEL%20HERRERA%20IDROGO-47938086.png"
+  },
+  {
+    "ID": "51",
+    "GRUPO": "GRUPO 7",
+    "NOMBRE Y APELLIDOS": "CINDY MASSIEL ORDOÑES GUERRERO",
+    "DNI": "71472695",
+    "PROFESIÓN": "TÉCNICA EN ENFERMERÍA",
+    "CARGO": "INSPECTOR DE VIVIENDA",
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/CINDY%20MASSIEL%20ORDO%C3%91ES%20GUERRERO-71472695.jpg"
   }
 ]
