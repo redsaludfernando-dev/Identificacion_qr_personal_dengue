@@ -6,7 +6,7 @@
     "DNI": "76124515",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "JEFE DE BRIGADA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/TITO%20FRANCINE%20HUAMAN%20CULQUI-76124515.png"
   },
   {
@@ -16,7 +16,7 @@
     "DNI": "75622985",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/MIRELI%20CARRASCO%20QUISPE-75622985.jpg"
   },
   {
@@ -26,7 +26,7 @@
     "DNI": "71121828",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/LUZ%20JHOANA%20TUESTA-71121828.png"
   },
   {
@@ -36,7 +36,7 @@
     "DNI": "76646049",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/JAIR%20DELGADO-76646049.png"
   },
   {
@@ -46,7 +46,7 @@
     "DNI": "75311444",
     "PROFESIÓN": "TÉCNICO EN ENFERMERIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "NO VIGENTE"
   },
   {
     "ID": "6",
@@ -55,7 +55,7 @@
     "DNI": "74431693",
     "PROFESIÓN": "TÉCNICO EN ENFERMERIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/MAGALY%20KELITA%20MONTEZA%20CALDERON-74431693.png"
   },
   {
@@ -65,7 +65,7 @@
     "DNI": "73087942",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/KIMBERLY%20RIOS-73087942.png"
   },
   {
@@ -74,8 +74,9 @@
     "NOMBRE Y APELLIDOS": "CESAR AUGUSTO SILVA CARDENAS",
     "DNI": "03380626",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
-    "CARGO": "JEFE DE BRIGADA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "CARGO": "INSPECTOR DE VIVIENDA",
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/CESAR%20AUGUSTO%20SILVA%20CARDENAS-03380626.jpg"
   },
   {
     "ID": "9",
@@ -84,7 +85,7 @@
     "DNI": "46433923",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/FLOR%20STEFANNY%20ESCUDERO-46433923.png"
   },
   {
@@ -94,7 +95,7 @@
     "DNI": "70549008",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/LALI%20ANDREA-70549008.png"
   },
   {
@@ -104,7 +105,7 @@
     "DNI": "74399068",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "NO VIGENTE",
     "FOTO": "img/fotos_perfil_personal/ROONEY%20RICARDO%20FLORES-74399068.png"
   },
   {
@@ -114,7 +115,7 @@
     "DNI": "72845712",
     "PROFESIÓN": "TÉCNICO EN CONTABILIDAD",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "NO VIGENTE",
     "FOTO": "img/fotos_perfil_personal/ARTURO%20DAVID-72845712.png"
   },
   {
@@ -124,7 +125,7 @@
     "DNI": "48831211",
     "PROFESIÓN": "CIRUJ.DENTISTA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "NO VIGENTE",
     "FOTO": "img/fotos_perfil_personal/MARC%20ANTHONY%20RUIZ%20PEREZ_48831211.jpg"
   },
   {
@@ -134,7 +135,7 @@
     "DNI": "74939156",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/NEISER%20DAVILA%20MEDINA-74939156.png"
   },
   {
@@ -143,8 +144,9 @@
     "NOMBRE Y APELLIDOS": "CARMEN DEL PILAR CURICO HUAMAN",
     "DNI": "44044700",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "CARGO": "SUPERVISOR(A) DE CAMPO",
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/CARMEN%20DEL%20PILAR%20CURICO%20HUAMAN-44044700.jpg"
   },
   {
     "ID": "16",
@@ -153,7 +155,8 @@
     "DNI": "70056281",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/YESSICA%20SELENI%20ERAZO%20QUISPE-70056281.jpg"
   },
   {
     "ID": "17",
@@ -161,8 +164,9 @@
     "NOMBRE Y APELLIDOS": "YEFERSON COMETIVOS VILLALOBOS",
     "DNI": "76954589",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
-    "CARGO": "JEFE DE BRIGADA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "CARGO": "INSPECTOR DE VIVIENDA",
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/YEFERSON%20COMETIVOS%20VILLALOBOS-76954589.png"
   },
   {
     "ID": "18",
@@ -171,7 +175,8 @@
     "DNI": "77242848",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/ROXANA%20GUEVARA%20PRETELL-77242848.png"
   },
   {
     "ID": "19",
@@ -180,7 +185,8 @@
     "DNI": "48537908",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/GISELLA%20BAUTISTA%20ROJAS-48537908.jpg"
   },
   {
     "ID": "20",
@@ -188,8 +194,9 @@
     "NOMBRE Y APELLIDOS": "JUNELLY PILCO MENDOZA",
     "DNI": "70548897",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "CARGO": "JEFE DE BRIGADA",
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/JUNELLY%20PILCO%20MENDOZA-70548897.jpg"
   },
   {
     "ID": "21",
@@ -198,7 +205,7 @@
     "DNI": "70272455",
     "PROFESIÓN": "TÉCNICO ADM. BANC.",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "NO VIGENTE"
   },
   {
     "ID": "22",
@@ -207,7 +214,7 @@
     "DNI": "71119369",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/ROXANA%20ROJAS%20CULQUI-71119369.png"
   },
   {
@@ -216,18 +223,19 @@
     "NOMBRE Y APELLIDOS": "CLEMENCIA DELGADO VASQUEZ",
     "DNI": "43088329",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "CARGO": "JEFE DE BRIGADA",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/CLEMENCIA-43088329.png"
   },
   {
     "ID": "24",
-    "GRUPO": "GRUPO 4",
+    "GRUPO": "GRUPO 2",
     "NOMBRE Y APELLIDOS": "TITO CHUNG VASQUEZ",
     "DNI": "70183395",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/TITO%20CHUNG%20VASQUEZ-70183395.png"
   },
   {
     "ID": "25",
@@ -236,7 +244,8 @@
     "DNI": "73140643",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/DIANA%20GRETHEL%20RODR%C3%8DGUEZ%20MURAYARI-73140643.png"
   },
   {
     "ID": "26",
@@ -245,7 +254,7 @@
     "DNI": "73136462",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/JUDITH%20MONTENEGRO-73136462.png"
   },
   {
@@ -254,8 +263,9 @@
     "NOMBRE Y APELLIDOS": "NOLBER SUÁREZ AGUILAR",
     "DNI": "43277814",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
-    "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "CARGO": "JEFE DE BRIGADA",
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/NOLBER%20SU%C3%81REZ%20AGUILAR-43277814.jpg"
   },
   {
     "ID": "28",
@@ -264,7 +274,7 @@
     "DNI": "72712342",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/JANINA%20GUERRERO%20AMPUERO-72712342.png"
   },
   {
@@ -274,7 +284,8 @@
     "DNI": "47913985",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/GREYSI%20VALQUI%20CADENILLAS-47913985.png"
   },
   {
     "ID": "30",
@@ -283,7 +294,8 @@
     "DNI": "45085450",
     "PROFESIÓN": "EGR. INGENIERIA ZOOTECNISTA",
     "CARGO": "JEFE DE BRIGADA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/DEYVID%20EDUARDO%20URQUIA%20GUEVARA-45085450.png"
   },
   {
     "ID": "31",
@@ -292,7 +304,8 @@
     "DNI": "76306673",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "JEFE DE BRIGADA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/KLEIBER%20ALVARADO%20SANTILLAN-76306673.png"
   },
   {
     "ID": "32",
@@ -301,7 +314,8 @@
     "DNI": "48382422",
     "PROFESIÓN": "TÉC. ENFERMERIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/MARLY%20CIEZA%20RUIZ-48382422.png"
   },
   {
     "ID": "33",
@@ -310,7 +324,7 @@
     "DNI": "00832388",
     "PROFESIÓN": "EGR. MECÁNICA AUTOMOTRIZ",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/ALEXANDER%20MEJIA-00832388.png"
   },
   {
@@ -320,7 +334,7 @@
     "DNI": "71011987",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/JHAIR%20DEL%20CASTILLO%20DOZA-71011987.png"
   },
   {
@@ -330,7 +344,7 @@
     "DNI": "71247854",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "NO VIGENTE",
     "FOTO": "img/fotos_perfil_personal/XINA%20MANUELITA-71247854.png"
   },
   {
@@ -340,7 +354,7 @@
     "DNI": "73855339",
     "PROFESIÓN": "TÉCNICO AGROPECUARIO",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "NO VIGENTE"
   },
   {
     "ID": "37",
@@ -349,7 +363,7 @@
     "DNI": "71247856",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "JEFE DE BRIGADA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/ALEX%20BUSTAMENTE%20TERRONES-71247856.png"
   },
   {
@@ -359,7 +373,7 @@
     "DNI": "73473260",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/ANALI%20GUEVARA-73473260.png"
   },
   {
@@ -369,7 +383,7 @@
     "DNI": "46337189",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/YANETH%20MAGALY-46337189.png"
   },
   {
@@ -379,16 +393,17 @@
     "DNI": "71806754",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/GINA%20JEYDI%20TEJEDO%20CASTILLO-71806754.png"
   },
   {
     "ID": "41",
     "GRUPO": "GRUPO 6",
-    "NOMBRE Y APELLIDOS": "LIZETH SANCHEZ CONTRERAS",
+    "NOMBRE Y APELLIDOS": "LISETH SANCHEZ CONTRERAS",
     "DNI": "71768251",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/LISETH%20SANCHEZ-71768251.png"
   },
   {
@@ -398,7 +413,7 @@
     "DNI": "73070135",
     "PROFESIÓN": "EGR. EN OBSTETRICIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "NO VIGENTE"
   },
   {
     "ID": "43",
@@ -407,7 +422,7 @@
     "DNI": "72945142",
     "PROFESIÓN": "TÉCNICO EN ADMINISTRACIÓN",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "Hasta el 30/09/2026"
   },
   {
     "ID": "44",
@@ -416,7 +431,8 @@
     "DNI": "73440143",
     "PROFESIÓN": "TECNICO EN FERMERIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026"
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/ANALE%20HUAMAN%20CORONEL-73440143.png"
   },
   {
     "ID": "45",
@@ -425,7 +441,7 @@
     "DNI": "42474843",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/ELDER%20VILLACORTA%20LOPEZ_42474843.png"
   },
   {
@@ -435,7 +451,27 @@
     "DNI": "78010067",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/09/2026",
+    "VIGENCIA": "Hasta el 30/09/2026",
     "FOTO": "img/fotos_perfil_personal/JHON%20JAIRO%20CUMAPA%20PINEDO_78010067.jpg"
+  },
+  {
+    "ID": "47",
+    "GRUPO": "GRUPO 4",
+    "NOMBRE Y APELLIDOS": "FERNANDO BOCANEGRA BOBADILLA",
+    "DNI": "71213871",
+    "PROFESIÓN": "BACH. ING. AMB.",
+    "CARGO": "INSPECTOR DE VIVIENDA",
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/FERNANDO%20BOCANEGRA%20BOBADILLA-71213871.png"
+  },
+  {
+    "ID": "48",
+    "GRUPO": "GRUPO 4",
+    "NOMBRE Y APELLIDOS": "DENI GAITAN ESTELA",
+    "DNI": "47316035",
+    "PROFESIÓN": "TÉCNICA EN FARMACIA",
+    "CARGO": "INSPECTOR DE VIVIENDA",
+    "VIGENCIA": "Hasta el 30/09/2026",
+    "FOTO": "img/fotos_perfil_personal/DENI%20GAITAN%20ESTELA-47316035.png"
   }
 ]
