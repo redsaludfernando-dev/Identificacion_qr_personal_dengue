@@ -521,7 +521,8 @@
     "DNI": "76327009",
     "PROFESIÓN": "TÉC. ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/10/2026"
+    "VIGENCIA": "Hasta el 31/10/2026",
+    "FOTO": "img/fotos_perfil_personal/NORELIT%20JHASELITH%20TONGO%20DIAZ-76327009.jpeg"
   },
   {
     "ID": "54",
@@ -530,7 +531,8 @@
     "DNI": "48452515",
     "PROFESIÓN": "TÉC. ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/10/2026"
+    "VIGENCIA": "Hasta el 31/10/2026",
+    "FOTO": "img/fotos_perfil_personal/LUZ%20ELENA%20BARBOZA%20BARBOZA-48452515.jpg"
   },
   {
     "ID": "55",
@@ -539,6 +541,7 @@
     "DNI": "75721719",
     "PROFESIÓN": "TÉC. FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/10/2026"
+    "VIGENCIA": "Hasta el 31/10/2026",
+    "FOTO": "img/fotos_perfil_personal/TEONILA%20YANELA%20FERNANDEZ%20DIAZ-75721719.jpg"
   }
 ]
