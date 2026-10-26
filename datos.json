@@ -16,7 +16,7 @@
     "DNI": "75622985",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/10/2026",
+    "VIGENCIA": "NO VIGENTE",
     "FOTO": "img/fotos_perfil_personal/MIRELI%20CARRASCO%20QUISPE-75622985.jpg"
   },
   {
@@ -26,7 +26,7 @@
     "DNI": "71121828",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/10/2026",
+    "VIGENCIA": "NO VIGENTE",
     "FOTO": "img/fotos_perfil_personal/LUZ%20JHOANA%20TUESTA-71121828.png"
   },
   {
@@ -46,7 +46,7 @@
     "DNI": "75311444",
     "PROFESIÓN": "TÉCNICO EN ENFERMERIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/10/2026"
+    "VIGENCIA": "NO VIGENTE"
   },
   {
     "ID": "6",
@@ -95,7 +95,7 @@
     "DNI": "70549008",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/10/2026",
+    "VIGENCIA": "NO VIGENTE",
     "FOTO": "img/fotos_perfil_personal/LALI%20ANDREA-70549008.png"
   },
   {
@@ -135,7 +135,7 @@
     "DNI": "74939156",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/10/2026",
+    "VIGENCIA": "NO VIGENTE",
     "FOTO": "img/fotos_perfil_personal/NEISER%20DAVILA%20MEDINA-74939156.png"
   },
   {
@@ -175,7 +175,7 @@
     "DNI": "77242848",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/10/2026",
+    "VIGENCIA": "NO VIGENTE",
     "FOTO": "img/fotos_perfil_personal/ROXANA%20GUEVARA%20PRETELL-77242848.png"
   },
   {
@@ -244,7 +244,7 @@
     "DNI": "73140643",
     "PROFESIÓN": "TÉCNICO EN FARMACIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/10/2026",
+    "VIGENCIA": "NO VIGENTE",
     "FOTO": "img/fotos_perfil_personal/DIANA%20GRETHEL%20RODR%C3%8DGUEZ%20MURAYARI-73140643.png"
   },
   {
@@ -354,7 +354,7 @@
     "DNI": "73855339",
     "PROFESIÓN": "TÉCNICO AGROPECUARIO",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "NO VIGENTE"
+    "VIGENCIA": "Hasta el 31/10/2026"
   },
   {
     "ID": "37",
@@ -393,7 +393,7 @@
     "DNI": "71806754",
     "PROFESIÓN": "TÉCNICO EN ENFERMERÍA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/10/2026",
+    "VIGENCIA": "NO VIGENTE",
     "FOTO": "img/fotos_perfil_personal/GINA%20JEIDY%20TEJEDO%20CASTILLO-71806754.png"
   },
   {
@@ -422,7 +422,7 @@
     "DNI": "72945142",
     "PROFESIÓN": "TÉCNICO EN ADMINISTRACIÓN",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/10/2026"
+    "VIGENCIA": "NO VIGENTE"
   },
   {
     "ID": "44",
@@ -431,7 +431,7 @@
     "DNI": "73440143",
     "PROFESIÓN": "TECNICO EN FERMERIA",
     "CARGO": "INSPECTOR DE VIVIENDA",
-    "VIGENCIA": "Hasta el 31/10/2026",
+    "VIGENCIA": "NO VIGENTE",
     "FOTO": "img/fotos_perfil_personal/ANALE%20HUAMAN%20CORONEL-73440143.png"
   },
   {
@@ -543,5 +543,45 @@
     "CARGO": "INSPECTOR DE VIVIENDA",
     "VIGENCIA": "Hasta el 31/10/2026",
     "FOTO": "img/fotos_perfil_personal/TEONILA%20YANELA%20FERNANDEZ%20DIAZ-75721719.jpg"
+  },
+  {
+    "ID": "56",
+    "GRUPO": "GRUPO 2",
+    "NOMBRE Y APELLIDOS": "MARÍA LEONILA HUAMÁN MARIÑAS",
+    "DNI": "76092623",
+    "PROFESIÓN": "TÉC. ENFERMERÍA",
+    "CARGO": "INSPECTOR DE VIVIENDA",
+    "VIGENCIA": "Hasta el 31/10/2026",
+    "FOTO": "img/fotos_perfil_personal/MARIA%20LEONILA%20HUAM%C3%81N%20MARI%C3%91AS-76092623.jpeg"
+  },
+  {
+    "ID": "57",
+    "GRUPO": "GRUPO 3",
+    "NOMBRE Y APELLIDOS": "JANI DANEY LINARES VEGA",
+    "DNI": "75991701",
+    "PROFESIÓN": "TÉC. ENFERMERÍA",
+    "CARGO": "INSPECTOR DE VIVIENDA",
+    "VIGENCIA": "Hasta el 31/10/2026",
+    "FOTO": "img/fotos_perfil_personal/JANI%20DANEY%20LINARES%20VEGA-75991701.jpeg"
+  },
+  {
+    "ID": "58",
+    "GRUPO": "GRUPO 4",
+    "NOMBRE Y APELLIDOS": "MEDALY JIRÓN ENCALADA",
+    "DNI": "76463217",
+    "PROFESIÓN": "TÉC. ENFERMERÍA",
+    "CARGO": "INSPECTOR DE VIVIENDA",
+    "VIGENCIA": "Hasta el 31/10/2026",
+    "FOTO": "img/fotos_perfil_personal/MEDALY%20JIR%C3%93N%20ENCALADA-76463217.jpeg"
+  },
+  {
+    "ID": "59",
+    "GRUPO": "GRUPO 5",
+    "NOMBRE Y APELLIDOS": "DANIEL MIZAEL AGUILAR CHAVEZ",
+    "DNI": "73094182",
+    "PROFESIÓN": "TÉC. MECÁNICA",
+    "CARGO": "INSPECTOR DE VIVIENDA",
+    "VIGENCIA": "Hasta el 31/10/2026",
+    "FOTO": "img/fotos_perfil_personal/DANIEL%20MIZAEL%20AGUILAR%20CHAVEZ-73094182.jpeg"
   }
 ]
